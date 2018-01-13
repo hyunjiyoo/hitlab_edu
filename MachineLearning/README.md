@@ -1,8 +1,18 @@
-### Machine Learning Seminar ###
-> 이곳은 2018년 1-2월 HITLab 의 Machine Learning 세미나 자료르 모아둔 곳입니다.
-> 발표 목차에 따라 번호.제목.md 형식으로 파일을 업로드하고 아래에 목차를 업데이트 할 수 있도록.
+## Machine Learning
+> Machine Learning에 대한 개념을 다지고 각 알고리즘에 대한 개념과 튜토리얼을 Tensorflow를 통해서 학습할 수 있는 페이지.
 
-### 목 차 ###
+### Index :
+1. [Machine Learning 개념 다지기](#c1)
+2. [Linear Regression(선형 회귀 분석)](#c2)
+3. [Clustering(군집화)](#c3)
+4. [Neural Network(신경망)](#c4)
+5. [Distributed Training(분산 처리)](#c5)
+6. [Recursive Neural Network(RNN) & Long Short-Term Memory Units(LSTM)](#c6)
+7. [Tensorflow 추가 학습](#c7)
 
-1. Machine Learning 개요
-2. XXXXXX
+#### Reference
+- Tensorflow Machine Learning Cookbook, Nick McClure
+
+#### Task
+- Python 기본 문법
+- Tensorflow 설치

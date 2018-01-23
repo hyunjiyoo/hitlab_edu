@@ -12,6 +12,7 @@
 
 #### Reference
 - _Tensorflow Machine Learning Cookbook_, Nick McClure
+- [Tensorflow Cookbook Github 사이트](https://github.com/nfmcclure/tensorflow_cookbook)
 - [솔라리스의 인공지능 연구실](http://solarisailab.com/archives/1785)
 - [텐서플로우 한글문서 번역본](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/)
 

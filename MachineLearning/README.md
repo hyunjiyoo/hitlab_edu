@@ -13,6 +13,7 @@
 #### Reference
 - _Tensorflow Machine Learning Cookbook_, Nick McClure
 - [솔라리스의 인공지능 연구실](http://solarisailab.com/archives/1785)
+- [텐서플로우 한글문서 번역본](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/)
 
 #### Task
 - _IntelliJ Python_ 환경 설정

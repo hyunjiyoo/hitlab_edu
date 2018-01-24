@@ -10,13 +10,7 @@
 6. [_Recursive Neural Network_(__RNN__) & _Long Short-Term Memory Units_(__LSTM__)](RNN_LSTM.md)
 7. [_Tensorflow_ 추가 학습](Additional_Tensorflow.md)
 
-#### Reference
-- _Tensorflow Machine Learning Cookbook_, Nick McClure
-- [Tensorflow Machine Learning Cookbook Github 사이트](https://github.com/nfmcclure/tensorflow_cookbook)
-- [솔라리스의 인공지능 연구실](http://solarisailab.com/archives/1785)
-- [텐서플로우 한글문서 번역본](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/)
-
 #### Task
-- _IntelliJ Python_ 환경 설정
-- _Tensorflow_ Module 설치
-- _Python_ 기본 문법
+- _IntelliJ Python_ Plugin 설치
+- _Tensorflow_ 설치
+- _Python_ 기본 문법에 대한 학습

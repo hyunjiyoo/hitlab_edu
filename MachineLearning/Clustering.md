@@ -1,0 +1,45 @@
+## Clustering(군집화)
+> __Unsupervised Learning__ (비지도학습) 방법 중 하나인 Clustering(군집화)에 대해서 학습하는 페이지이다.
+
+#### index
+
+1. _Clustering_ 이란?(#c1)
+2. _Hierchical Clustering_ (계층적 군집화) (#c2)
+3. _K-means Clustering_ (K-평균 군집화) (#c3)
+4. Tutorial
+5. 미해결 부분
+
+### _Clustering_ 이란? <a name="c1"/>
+
+__Clustering__ (군집화)란 _비지도학습_ 방법 중 하나로 비슷한 개체는 한 묶음으로, 비슷하지 않은 개체는 다른 그룹으로 __그룹화__ 하는 방법으로 그룹에 대한 정보나 정답이 없이 나누는 방법이다. 군집화는 비슷한 정보, 패턴이 유사한 사용자, 데이터들을 묶어주는 __패턴 인지__ 혹은 __데이터 압축__ 에 자주 사용되는 방식이다. 군집화는 다음과 같이 나뉜다.
+
+- __hard clustering__ : 한 개체가 여러 군집에 속하는 경우를 허용하지 않는 방법 (<-> soft clustering)
+- __pational clustering__ : 전체 데이터의 영역을 특정 기준에 의해 동시에 구분하는 방법 ex) K-mean clustering
+- __hierhical clustering__ : 개체들을 가까운 집단부터 차근차근 묶어나가는 방법
+- __self-organizing map__ : Neural Network 기반의 군집화 방법
+- __spectual clustering__ : 그래프 기반의 군집화 방법
+
+군집화는 _정답(Label)이 주어지지 않기 때문에_ 지도학습처럼 정답과 비교하여 지표로 삼는 정확도 계산이 어려워 최적의 군집을 정확하게 파악하는 것은 어렵지만, 군집의 결과에 대한 타당성, 유용성을 따지는 __Clustering Validity Index__ (군집 타당성 지표)가 존재하여 평가를 할 수 있다. 군집화 중에서 많이 쓰이는 방법은 __Hierchical Clustering__ (계층적 군집화)와 __K-mean Clustering__ (K-평균 군집화)이고 이에 대한 학습을 진행한다.
+
+### _Hierchical Clustering_ (계층적 군집화) <a name="c2"/>
+__Hierchical Clustering__ (계층적 군집화)란 _계층적 트리 모형_ 을 이용해 개별 개체들을 순차적, 계층적으로 유사한 개체 내지 그룹과 통합하여 군집화를 수행하는 알고리즘이다. _군집 간의 거리를 기반_ 으로 군집화를 수행하고, 개체들이 결합되는 순서를 나타내는 트리형태의 구조인 __Dendrogram__ (덴드로그램)을 이용하여 군집 수를 사전에 정하지 않아도 학습을 수행할 수 있다는 장점이 있다.
+
+![Alt Text][Hierchical Clustering]
+
+위의 사진은 계층적 군집화를 하여 덴드로그램을 이용해 시각화를 한 것이다. 그림을 보면 처음에는 각각 다른 그룹이었다가 점차 상위 계층으로 올라 갈 수록 같은 그룹으로 그룹화가 이루어지고 최종적으로 하나의 같은 그룹으로 나오는 것을 볼 수 있다. 그림과 같이 계층적 군집화는 _단계별로 그룹화_ 를 진행하는 것을 볼 수 있다.
+
+### __K-means Clustering__ (K-평균 군집화) <a name="c3"/>
+__K-means Clustering__ (K-평균 군집화)는 _k개의 중심점_ 을 찍은 후, 중심점에서 각 점간의 _거리의 합이 최소_ 가 되는 중심점의 위치를 찾고, 이 중심점에서 가까운 점을 기준으로 묶는 군집화 알고리즘이다. 같은 중심점에 할당된 개체들은 같은 그룹을 형성하게 되며, 사전에 군집 수(k)가 정해져 있어야지 알고리즘을 수행할 수 있고 중심점은 각 군집 데이터의 _평균값_ 을 위치로 갖기 때문에 K-평균 군집화라고 이름이 붙여졌다.
+
+![Alt Text][K-means Clustering]
+
+위의 사진을 보면 3개의 파란색 마름모 꼴의 점(중심점)을 볼 수 있는데, 이는 3개의 군집이 존재하는 것을 나타내며, 이 중심점의 기준으로 군집이 이루어진 것을 볼 수 있다.
+
+#### Reference
+- _Tensorflow Machine Learning Cookbook_, Nick McClure
+- [Tensorflow Machine Learning Cookbook Github 사이트](https://github.com/nfmcclure/tensorflow_cookbook)
+- [ratsgo's blog](https://ratsgo.github.io/machine%20learning/2017/04/16/clustering/)
+- [조대협의 블로그](http://bcho.tistory.com/1203)
+
+[Hierchical Clustering]:https://imgur.com/mjmvOv7.png
+[K-means Clustering]:https://imgur.com/xjjZi00.png

@@ -1,0 +1,108 @@
+1.모듈
+> Angular는 여러 모듈로 구성된 하나의 모듈 집합
+
+**Angular 라이브러리 모듈(Angular가 제공하는 모듈)**
+모듈 패키지명 | 요약
+--- | ---
+@angular/core | Angular를 구성하는 주요 요소의 장식자 및 핵심 모듈
+@angular/forms | 폼 관련 모듈
+@angular/http | HTTP 통신과 관련된 모듈
+@angular/router | 라우터 관련 모듈
+
+이러한 Angular 라이브러리의 각 패키지는 수많은 모듈로 구성되어 있으므로 특정 모듈을 선택해 임포트 해야한다.
+```
+import { AppComponent } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+@NgModule({
+  bootstrap: [AppComponent]
+  declarations: [AppComponent],
+  exports: [],
+  imports: [BrowserModule],
+  providers: [],
+})
+export class AppModule { }
+```
+모듈은 @NgModule 데코레이터가있는 클래스이며, 모듈을 생성하기 위해 @NgModule 매개 변수를 전달하는 @NgModule 을 추가한다.
+
+``bootstrap`` : 최상위 컴포넌트인 애플리케이션 컴포넌트 등록
+``declarations`` : 애플리케이션에서 사용하고자 하는 컴포넌트 선언
+``exports`` : 다른 모듈에서 사용할 수 있는 모듈 내보내기 리소스
+``imports`` : 모듈이 다른 모듈에서 사용하는 자원
+``providers`` : 애플리케이션 전역에서 사용할 서비스 등록
+
+
+2.바인딩
+> 클래스와 템플릿을 연결하는 기능
+
+기본적으로 바인딩은 변화 감지(change detection) 기능이 있다.
+
+ex) 버튼을 선택했을 때 입력 상자의 값을 모두 바꾸는 기능 구현
+jQuery 같은 라이브러리로 처리한다면 다음과 같이 이벤트 핸들러를 추가하고 변경할 엘리먼트를 모두 선택해서 상태 값을 모두 변경해야 한다.
+```
+$("button").click(function(){
+	$("#id1").attr("value","hello");
+    $("#id2").attr("value","hello");
+});
+```
+하지만 Angular에서는 바인딩을 통해 상태를 실시간으로 공유하므로 다음과 같이 양방향 바인딩으로 설정된 status 변수를 이용하면 엘리먼트 간에 상태를 공유할 수 있다.
+```
+<input type="text" [(ngModel)]="status">
+<input type="text" [(ngModel)]="status">
+```
+2.1 바인딩 종류
+> 바인딩 방향에 따라 단방향 바인딩과 양방향 바인딩으로 나뉜다.
+
+``단방향 바인딩(one-way binding)`` : 값을 표시하거나 엘리먼트에 값을 연결
+``양방향 바인딩(two-way binding)`` : 자신의 상태를 저장할 뿐 아니라 바인딩된 변수를 통해 엘리먼트 간 상태를 공유 
+
+- {{ }} : 인터폴레이션
+컴포넌트의 name 값이 템플릿의 name에 반영되며, 스크립트를 통해 템플릿에서 name 값을 변경하면 컴포넌트의 name도 변경된다.
+```
+import { Component } from '@angular/core';
+@Component({
+    selector: 'app-input-form',
+    template: `<h5>{{name}}</h5>`
+})
+export class NameComponent {
+    name = 'dahyun';
+}
+```
+두 방향으로 데이터가 교환되기는 하지만 동시에 교환되는 양방향은 아니다.
+
+- [] : 속성 바인딩
+ [name]=“bookName” 는 NameComponent의 속성인 bookName의 값을 name 속성에 넣는 것이고, [name]=“ ‘bookName’ ” 은 name 속성에 bookName이라는 문자열을 넣는 것이다.
+```
+import { Component } from '@angular/core';
+@Component({
+    selector: 'app-input-form',
+    template: `<input type="text" [name]="bookName" [size]="30" 
+                  value="{{name}}">`
+})
+export class NameComponent {
+    name = 'dahyun';
+    bookName = 'angular2';
+}
+```
+
+- ( ) : 이벤트 바인딩
+ 템플릿에서 발생하는 이벤트를 컴포넌트의 메소드와 연동 가능
+- [( )] : 양방향 바인딩
+템플릿과 컴포넌트 간에 동시에 값을 공유
+```
+import { Component } from '@angular/core';
+@Component({
+    selector: 'app-input-form',
+    template: `<input [(ngModel)]="name"><br>
+               <button (click)="setName('dahyun2')">이름 바꾸기
+               </button>
+              `
+})
+export class NameComponent {
+    name = 'dahyun';
+    setName(name){
+       this.name = name;
+    }
+}
+```

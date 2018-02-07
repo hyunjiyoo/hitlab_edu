@@ -4,7 +4,7 @@
 ### Index :
 1. [_Angular 소개_](1.Angular_intro.md)
 2. [_Component / Directive_](2.Component&Directive.md)
-3. [_Module / Binding_](3.Module&Binding.md)
+3. [_Module / Binding / Router_](3.Module&Binding&Router.md)
 
 
 #### Reference

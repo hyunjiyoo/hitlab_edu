@@ -1,6 +1,7 @@
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
 [![Dinfree][din-badge]][din-url]
+[![Subject][basic-badge]][din-url]
 [![Subject][html-badge]][din-url]
 [![Subject][css-badge]][din-url]
 [![Subject][js-badge]][din-url]
@@ -15,7 +16,7 @@
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
-[basic-badge]https://img.shields.io/badge/core-basic-green.svg
 [css-badge]:https://img.shields.io/badge/frontend-css-ff69b4.svg
 [html-badge]:https://img.shields.io/badge/frontend-html-brightgreen.svg
 [js-badge]:https://img.shields.io/badge/frontend-javascript-red.svg
+[basic-badge]:https://img.shields.io/badge/core-basic-green.svg

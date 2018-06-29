@@ -5,6 +5,9 @@
 #### 온라인 강좌, 자료
 - 예제로 배우는 파이썬 : http://pythonstudy.xyz/Python/Basics , 간결하게 정리됨.
 - w3schools.com : https://www.w3schools.com/python/default.asp
+- 파이썬 알고리즘 트레이딩 : https://wikidocs.net/book/110
+- 코딩도장 파이썬 : https://dojang.io/course/view.php?id=3
+
 
 #### 강의 동영상
 

@@ -22,6 +22,7 @@
 ### 동영상 강좌
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 - What is the world wide web?: https://youtu.be/J8hzJxb0rpc
+
   -> 인터넷, www, 웹서버, 웹호스트, 도메인, 웹브라우저 등등
 
 - 인터넷 서비스 _ WWW, 웹브라우즈의 소개, 전자우편 소개 (1)	: http://contents.hufs.ac.kr/comm/vod_view.asp?idx=4086(02:30 ~ 07:30)

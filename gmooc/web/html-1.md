@@ -26,23 +26,29 @@
   -> 인터넷, www, 웹서버, 웹호스트, 도메인, 웹브라우저 등등
 
 - 인터넷 서비스 _ WWW, 웹브라우즈의 소개, 전자우편 소개 (1)	: http://contents.hufs.ac.kr/comm/vod_view.asp?idx=4086(02:30 ~ 07:30)
+
   -> www의 등장, 하이퍼텍스트&하이퍼링크, http, 
 
 - 웹애플리케이션 만들기 -웹의 역사: https://youtu.be/nCs6IJJbuuI
+
   -> 인터넷vs웹, 웹의 역사
 
 - 웹서비스? 그게뭔데!?: https://youtu.be/pv3fCmVPsdc
+
   -> 웹서비스 설명
   
 - Web 2.0 : https://youtu.be/Bc0oDIEbYFc
 
 - 웹프로그래밍 with 인크레파스_ 00강_웹 개요: https://youtu.be/jI3F86ACDeo?t=4m23s (04:23 ~)
+
   -> www, 웹프로그래밍, 웹서버, 주요언어들, 프론트엔드&백엔드
   
 - 웹의 개요 : https://youtu.be/QhX559uQSjE
+
   -> www, 웹브라우저, 웹페이지
   
 - 웹의 의미와 역사 : https://youtu.be/48hdc7LLc9w
+
   -> 프로토콜, 웹 이전 예시, berners-Lee, 웹
   
 

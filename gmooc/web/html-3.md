@@ -64,6 +64,7 @@
 
 - 텍스트 태그들: https://youtu.be/0KVaS4Kvz6s
 - b태그,hr태그, i태그 : https://youtu.be/EIjLw_MicNs?t=29m46s (~33:10)
+- Formatting Tags : https://youtu.be/qAezgPRMako
 
 
 

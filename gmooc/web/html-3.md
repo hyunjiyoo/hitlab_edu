@@ -40,9 +40,8 @@
 ### 동영상 강좌
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 
-- html기본 구조: https://youtu.be/uD5lY9QSP5c
-- html head: https://youtu.be/vQeA4xpwVdE
-- meta태그: https://youtu.be/zO5zHxX2lNI
+- p태그: https://youtu.be/z7DiQe4wnLc
+
 
 
 ### 참고 자료
@@ -60,8 +59,8 @@
 ### 동영상 강좌
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 
-- html기본 구조: https://youtu.be/uD5lY9QSP5c
-- html head: https://youtu.be/vQeA4xpwVdE
+- 텍스트 태그들: https://youtu.be/0KVaS4Kvz6s
+- b태그,hr태그, i태그 : https://youtu.be/EIjLw_MicNs?t=29m46s (~33:10)
 - meta태그: https://youtu.be/zO5zHxX2lNI
 
 

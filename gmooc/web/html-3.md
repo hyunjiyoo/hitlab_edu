@@ -23,6 +23,7 @@
 
 - h태그 : https://youtu.be/5Xhta_M5nxE
 - h태그 크기:https://youtu.be/jzFgg_txWFY
+- header, title : https://youtu.be/FMarz-fDAMw?t=7m50s
  
 
 ### 참고 자료
@@ -41,6 +42,8 @@
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 
 - p태그: https://youtu.be/z7DiQe4wnLc
+- 문단, line break : https://youtu.be/JGJvuvmdpMM
+- 문단과 줄바꿈 : https://youtu.be/Ho2gC48S-6I
 
 
 
@@ -61,7 +64,7 @@
 
 - 텍스트 태그들: https://youtu.be/0KVaS4Kvz6s
 - b태그,hr태그, i태그 : https://youtu.be/EIjLw_MicNs?t=29m46s (~33:10)
-- meta태그: https://youtu.be/zO5zHxX2lNI
+
 
 
 ### 참고 자료

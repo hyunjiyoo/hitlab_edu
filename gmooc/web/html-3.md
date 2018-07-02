@@ -10,20 +10,20 @@
 프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
 
 ### 목차
-1. html 기본 작성법
-2. html 구조
+1. html Headings
+2. html Paragraphs
+3. html Formatting
 
 ---
-## 1. html기본 작성법
+## 1. html Headings (머릿글)
 
 
 ### 동영상 강좌
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 
-- 비쥬얼 스튜디오 코드 설치 및 사용법 : https://youtu.be/cwW4yyf2G7A
-- 에디터 사용법 (에디터란, Brackcats):https://youtu.be/CXd2a4dZEf4
-- 에디터 소개 (유료+무료): https://youtu.be/PC4wDSyLaJ0
-- 닫는 태그의 사용 규칙 : https://youtu.be/6-yPHhxvuFU  
+- h태그 : https://youtu.be/5Xhta_M5nxE
+- h태그 크기:https://youtu.be/jzFgg_txWFY
+ 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
@@ -35,7 +35,27 @@
 - XXX는 000에서 BBB 하는데 000은 무어라 하는가?
 - 000은 무엇의 약어 인가?
 
-## 2. html 구조
+## 2. html Paragraphs
+
+### 동영상 강좌
+> 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
+
+- html기본 구조: https://youtu.be/uD5lY9QSP5c
+- html head: https://youtu.be/vQeA4xpwVdE
+- meta태그: https://youtu.be/zO5zHxX2lNI
+
+
+### 참고 자료
+> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
+- 제목: url
+- 제목: url
+
+### 퀴즈
+- 000은 000 이라 하는가?
+- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
+- 000은 무엇의 약어 인가?
+
+## 3. html Formatting
 
 ### 동영상 강좌
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.

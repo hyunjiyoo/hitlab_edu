@@ -25,6 +25,7 @@
 - 에디터 소개 (유료+무료): https://youtu.be/PC4wDSyLaJ0
 - 닫는 태그의 사용 규칙 : https://youtu.be/6-yPHhxvuFU 
 - 주석 : https://youtu.be/WzsxfdnQQds
+- title 태그 : https://youtu.be/ytvYiVu8z30
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.

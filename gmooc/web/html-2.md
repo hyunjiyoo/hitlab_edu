@@ -43,6 +43,8 @@
 - html기본 구조: https://youtu.be/uD5lY9QSP5c
 - html head: https://youtu.be/vQeA4xpwVdE
 - meta태그: https://youtu.be/zO5zHxX2lNI
+- 시맨틱 태그 : https://youtu.be/n7tpIcUk4ms
+- 시맨틱 태그 예시 : https://youtu.be/MFDC9cI9JME
 
 
 ### 참고 자료

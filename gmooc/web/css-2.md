@@ -7,12 +7,12 @@
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
-## html
-컴퓨터 사용이 익숙하지 않은 분들을 위한 기초 학습 입니다. 컴퓨터와 운영체제, 파일관리 및 명령프롬프트 사용, 크롬 웹 브라우저 등 
-프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
+## CSS
+
 
 ### 목차
 1. [CSS 기본 문법](#css1)
+2. [CSS 포함 방법](#css2)
 
 ---
 <a id="css1"></a> 
@@ -21,36 +21,13 @@
 
 ### 동영상 강좌
 
-- CSS 수업 - CSS 소개: https://youtu.be/J8hzJxb0rpc
+- XML 이론 및 실습 - CSS 이해하기-1
+    > http://commons.bu.ac.kr/em/54ae42a29ab48 (12:00~22:45)
 
-    - CSS의 등장 배경
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 10 - CSS에서 캐스캐이딩 이해하기
+    > https://www.youtube.com/watch?v=MUJFHYkouog&index=10&list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp
 
-- 인터넷 서비스 _ WWW, 웹브라우즈의 소개, 전자우편 소개 (1)	: http://contents.hufs.ac.kr/comm/vod_view.asp?idx=4086(02:30 ~ 07:30)
-
-  -> www의 등장, 하이퍼텍스트&하이퍼링크, http, 
-
-- 웹애플리케이션 만들기 -웹의 역사: https://youtu.be/nCs6IJJbuuI
-
-  -> 인터넷vs웹, 웹의 역사
-
-- 웹서비스? 그게뭔데!?: https://youtu.be/pv3fCmVPsdc
-
-  -> 웹서비스 설명
-  
-- Web 2.0 : https://youtu.be/Bc0oDIEbYFc
-
-- 웹프로그래밍 with 인크레파스_ 00강_웹 개요: https://youtu.be/jI3F86ACDeo?t=4m23s (04:23 ~)
-
-  -> www, 웹프로그래밍, 웹서버, 주요언어들, 프론트엔드&백엔드
-  
-- 웹의 개요 : https://youtu.be/QhX559uQSjE
-
-  -> www, 웹브라우저, 웹페이지
-  
-- 웹의 의미와 역사 : https://youtu.be/48hdc7LLc9w
-
-  -> 프로토콜, 웹 이전 예시, berners-Lee, 웹
-  
+-
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
@@ -64,40 +41,28 @@
 
 
 ---
+<a id="css2"></a>
 ## 2. CSS 포함 방법
 
 
 ### 동영상 강좌
 
-- CSS 수업 - CSS 소개: https://youtu.be/J8hzJxb0rpc
+- CSS 수업 - HTML과 CSS가 만나는 법
+    > https://www.youtube.com/watch?v=YtGAuoFir8w
 
-  > CSS의 등장 배경
+- XML 이론 및 실습 - CSS 이해하기-1
+    > http://commons.bu.ac.kr/em/54ae42a29ab48 (22:45~24:15)
 
-- 인터넷 서비스 _ WWW, 웹브라우즈의 소개, 전자우편 소개 (1)	: http://contents.hufs.ac.kr/comm/vod_view.asp?idx=4086(02:30 ~ 07:30)
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
+    > https://youtu.be/zG27EhVetD8?t=5m15s (05:15~07:15)
 
-  -> www의 등장, 하이퍼텍스트&하이퍼링크, http, 
+- CSS Tutorial for Beginners - 10 - Using an external style sheet
+    > https://youtu.be/QT_lIti-8Zk
 
-- 웹애플리케이션 만들기 -웹의 역사: https://youtu.be/nCs6IJJbuuI
+- CSS Tutorial for Beginners - 28 - Add content page and reuse some of our CSS classes
+    > https://youtu.be/5enJfW3weCQ
 
-  -> 인터넷vs웹, 웹의 역사
 
-- 웹서비스? 그게뭔데!?: https://youtu.be/pv3fCmVPsdc
-
-  -> 웹서비스 설명
-  
-- Web 2.0 : https://youtu.be/Bc0oDIEbYFc
-
-- 웹프로그래밍 with 인크레파스_ 00강_웹 개요: https://youtu.be/jI3F86ACDeo?t=4m23s (04:23 ~)
-
-  -> www, 웹프로그래밍, 웹서버, 주요언어들, 프론트엔드&백엔드
-  
-- 웹의 개요 : https://youtu.be/QhX559uQSjE
-
-  -> www, 웹브라우저, 웹페이지
-  
-- 웹의 의미와 역사 : https://youtu.be/48hdc7LLc9w
-
-  -> 프로토콜, 웹 이전 예시, berners-Lee, 웹
   
 
 ### 참고 자료

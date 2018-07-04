@@ -29,10 +29,11 @@
   > https://www.youtube.com/watch?v=ZBUmTZsKXDY
 
 - CSS Tutorial for Beginners - 03 - Multiple selectors and writing rule for more than one element
-  > https://www.youtube.com/watch?v=JT0gyzbpD2U&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C&index=3
+  > https://youtu.be/JT0gyzbpD2U
 
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
-  > https://www.youtube.com/watch?v=zG27EhVetD8&list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp&index=9 (03:00~05:15)
+  > https://youtu.be/zG27EhVetD8?t=3m (03:00~05:15)
+  > https://youtu.be/zG27EhVetD8?t=10m44s (10:44~11:15)
   
 
 ### 참고 자료
@@ -57,6 +58,15 @@
 
 - 실전 HTML5 & CSS3 동영상 강좌 제 7강 CSS 기본-II
   > https://www.youtube.com/watch?v=m9WpyIYt9X4
+
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
+  > https://youtu.be/zG27EhVetD8?t=13m17s (13:17~13:40)
+
+- XML 이론 및 실습 - CSS 이해하기-2
+  > http://commons.bu.ac.kr/em/54ae2c1cf2b33 (11:51~15:28)
+
+- CSS Tutorial for Beginners - 22 - The ID Attribute
+  > https://youtu.be/ZuuEdXXzG7I
   
 
 ### 참고 자료
@@ -81,7 +91,18 @@
 
 - 실전 HTML5 & CSS3 동영상 강좌 제 7강 CSS 기본-II
   > https://www.youtube.com/watch?v=m9WpyIYt9X4 
-  
+
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
+  > https://youtu.be/zG27EhVetD8?t=11m16s (11:16~13:16)
+
+- XML 이론 및 실습 - CSS 이해하기-2
+  > http://commons.bu.ac.kr/em/54ae2c1cf2b33 (09:02~11:50)
+
+- CSS Tutorial for Beginners - 06 - Using Classes in CSS
+  > https://youtu.be/u4dLB9NP3IA
+
+- CSS Tutorial for Beginners - 07 - More on Classes in CSS
+  > https://youtu.be/KULYFC545qY
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.

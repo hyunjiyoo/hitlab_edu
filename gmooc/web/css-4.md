@@ -8,12 +8,11 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
 ## CSS
-컴퓨터 사용이 익숙하지 않은 분들을 위한 기초 학습 입니다. 컴퓨터와 운영체제, 파일관리 및 명령프롬프트 사용, 크롬 웹 브라우저 등 
-프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
+
 
 ### 목차
-1. [CSS color](#css1)
-2. [CSS background-color](#css2)
+1. [color](#css1)
+2. [background-color](#css2)
 
 ---
 <a id="css1"></a> 
@@ -22,8 +21,15 @@
 
 ### 동영상 강좌
 
-- 
+- CSS 수업 - 타이포그래피 : color
+  > https://www.youtube.com/watch?v=UZjEiu4smE4
   
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 13 - 색상과 배경
+  > https://youtu.be/dE3reA56j4s
+
+- CSS Tutorial for Beginners - 13 - Web Colors
+  > https://youtu.be/sbtD9AP9W70
+
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
@@ -43,8 +49,14 @@
 
 ### 동영상 강좌
 
-- 
+- CSC 수업 - 배경
+  > https://www.youtube.com/watch?time_continue=1&v=cJdsYVECxZY
+
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 13 - 색상과 배경
+  > https://youtu.be/dE3reA56j4s?t=3m34s (03:34~)
   
+- CSS Tutorial for Beginners - 21 - Background image property
+  > https://youtu.be/9vo8nTQ7s5A
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.

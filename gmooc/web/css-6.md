@@ -8,21 +8,27 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
 ## CSS
-컴퓨터 사용이 익숙하지 않은 분들을 위한 기초 학습 입니다. 컴퓨터와 운영체제, 파일관리 및 명령프롬프트 사용, 크롬 웹 브라우저 등 
-프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
+
 
 ### 목차
-1. [CSS color](#css1)
-2. [CSS background-color](#css2)
+1. [가상 선택자](#css1)
+2. [상속, 자손 선택자](#css2)
 
 ---
 <a id="css1"></a> 
-## 1. CSS color
+## 1. 가상 선택자
 
 
 ### 동영상 강좌
 
-- 
+- 가상클래스선택자
+    > https://www.youtube.com/watch?v=UK9GF5Kg__A
+
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 24 - CSS 셀렉터 -2
+    > https://youtu.be/uAuzaBlGyCs
+
+- CSS Tutorial for Beginners - 55 - first Selector - Selectors Part 8
+    > https://youtu.be/osDhqRznpVo
   
 
 ### 참고 자료
@@ -38,13 +44,36 @@
 
 ---
 <a id="css2"></a> 
-## 2. CSS background-color
+## 2. 상속, 자손, 후손 선택자
 
 
 ### 동영상 강좌
 
-- 
+- CSS 수업 - 부모 자식 선택자
+    > https://www.youtube.com/watch?v=jdc-7VMNf9g
+
+- 실전 HTML5 & CSS3 동영상 강좌 제 7강 CSS 기본-II
+    > https://youtu.be/m9WpyIYt9X4?t=31m50s (31:50~39:20)
   
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 23 - CSS 셀렉터 -1
+    > https://youtu.be/-NAhe01nFkg
+
+- XML 이론 및 실습 - CSS 이해하기-2
+    > http://commons.bu.ac.kr/em/54ae2c1cf2b33 (15:40~17:50)
+
+- CSS Tutorial for Beginners - 05 - Inheritance and overriding
+    > https://youtu.be/Bj2ZCfDPP2A
+
+- CSS Tutorial for Beginners - 48 - Review and descendant selector - Selectors Part 1
+    > https://youtu.be/QbpUgzOHRQo
+
+- CSS Tutorial for Beginners - 49 - Child selectors - Selectors Part 2
+    > https://youtu.be/kaYQ9n8aRkg
+
+- CSS Tutorial for Beginners - 53 - nth child Selector - Selectors Part 6
+    > https://youtu.be/8ltqU8rBM8Y
+
+
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.

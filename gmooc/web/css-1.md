@@ -7,8 +7,7 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
 ## CSS
-컴퓨터 사용이 익숙하지 않은 분들을 위한 기초 학습 입니다. 컴퓨터와 운영체제, 파일관리 및 명령프롬프트 사용, 크롬 웹 브라우저 등 
-프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
+
 
 ### 목차
 1. [CSS 개념 이해](#css1)
@@ -33,7 +32,10 @@
     > http://commons.bu.ac.kr/em/54ae42a29ab48 (~12:00)
 
 - CSS Tutorial for Beginners - 01 - Introduction to CSS
-    > https://www.youtube.com/watch?v=qKoajPPWpmo&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C
+    > https://youtu.be/qKoajPPWpmo
+
+- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
+    > https://youtu.be/zG27EhVetD8 (~03:00)
 
   
 

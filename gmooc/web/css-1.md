@@ -18,9 +18,8 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - CSS 소개
-    > https://youtu.be/J8hzJxb0rpc
+    > https://www.youtube.com/watch?v=ONcmkf07EuI
 
 - WEB2 CSS - 3. CSS의 등장
     > https://www.youtube.com/watch?v=L41Zjl7XANI
@@ -40,9 +39,10 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Introduction: https://www.w3schools.com/css/css_intro.asp
+- Introduction to CSS: https://www.csstutorial.net/css-intro/introductioncss-part1.php
+- CSS 입문: https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?

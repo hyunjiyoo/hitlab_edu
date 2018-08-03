@@ -19,11 +19,12 @@
 
 소제목에 대한 간단한 설명이 와야 합니다. 최대한 간결하게 해당 소제목의 내용중 핵심을 설명합니다. 설명과 함께 목록등이 올 수 있으며 반드시 하나 이상의 이미지와 설명이 있어야 합니다. 단, 내용이 너무 길어지지 않도록 작성 합니다.
 
-<img alt="css01" src="img/css01.png" width="80%" >
+<img alt="css01" src="img/css_1-1.png" width="80%" >
+<p></p>
 
-- CSS란 <strong>`Cascading Style Sheet`</strong>의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어이다.
-- 웹 페이지의 <strong>`내용(HTML)`</strong>과 <strong>`스타일(CSS)`</strong>을 분리해주어 작업을 효율적으로 수행할 수 있도록 도와준다.
-- HTML에 스타일을 입히는 언어이다.
+- CSS란 <strong>`Cascading Style Sheet`</strong>의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
+- 웹 페이지의 <strong>`내용(HTML)`</strong>과 <strong>`스타일(CSS)`</strong>을 분리해주어 작업을 효율적으로 수행할 수 있도록 도와줍니다.
+- HTML문서를 디자인하는 언어입니다.
 
 ### 동영상 강좌
 - 스타일과 스타일시트는 무엇인가?
@@ -42,6 +43,8 @@
   > https://bit.ly/2O7dgkA
 - MDN web docs - How CSS works
   > https://mzl.la/2dggA9Q
+- Tech Altum tutorial - 개요, Type
+  > https://bit.ly/2nd67TT
 
 
 ### 퀴즈
@@ -76,10 +79,11 @@ Cascading Style Sheet
 
 소제목에 대한 간단한 설명이 와야 합니다. 최대한 간결하게 해당 소제목의 내용중 핵심을 설명합니다. 설명과 함께 목록등이 올 수 있으며 반드시 하나 이상의 이미지와 설명이 있어야 합니다. 단, 내용이 너무 길어지지 않도록 작성 합니다.
 
-<img alt="css02" src="img/css02.png" width="80%" >
+<img alt="css02" src="img/css_1-2.png" width="80%" >
+<p></p>
 
-- 화면 크기가 다른 기기들의 사이즈를 제어해주며, 웹 페이지의 레이아웃과 디자인을 구성한다.
-- 하나의 HTML파일와 여러 개의 CSS파일이 존재할 때, 다양한 디자인의 웹 페이지를 구성할 수 있다.
+- 화면의 크기가 다른 기기들의 사이즈를 제어해주며, 웹 페이지의 레이아웃과 디자인을 구성합니다.
+- 하나의 HTML파일와 여러 개의 CSS파일이 존재할 때, 다양한 디자인의 웹 페이지를 구성할 수 있습니다.
 
 
 ### 동영상 강좌
@@ -114,10 +118,11 @@ Cascading Style Sheet
 
 소제목에 대한 간단한 설명이 와야 합니다. 최대한 간결하게 해당 소제목의 내용중 핵심을 설명합니다. 설명과 함께 목록등이 올 수 있으며 반드시 하나 이상의 이미지와 설명이 있어야 합니다. 단, 내용이 너무 길어지지 않도록 작성 합니다.
 
-<img alt="css03" src="img/css03.png" width="50%" >
+<img alt="css03" src="img/css_1-3.png" width="50%" >
+<p></p>
 
-- CSS규칙은 <strong>`선택자(selector)`</strong>와 <strong>`선언부(declaration)`</strong>로 구성된다.
-- 모든 HTML요소가 선택자가 될 수 있다.
+- CSS규칙은 <strong>`선택자(selector)`</strong>와 <strong>`선언부(declaration)`</strong>로 구성됩니다.
+- 모든 HTML요소가 선택자가 될 수 있습니다.
 
 
 ### 동영상 강좌
@@ -137,6 +142,7 @@ Cascading Style Sheet
   > https://bit.ly/2O7dgkA
 - MDN web docs - CSS syntax
   > https://mzl.la/2LUDsRj
+
 
 ### 퀴즈
 #### 1) h1 태그 색상을 'green'으로 하는 CSS 문법을 쓰시오.
@@ -178,9 +184,10 @@ h1 {
 
 소제목에 대한 간단한 설명이 와야 합니다. 최대한 간결하게 해당 소제목의 내용중 핵심을 설명합니다. 설명과 함께 목록등이 올 수 있으며 반드시 하나 이상의 이미지와 설명이 있어야 합니다. 단, 내용이 너무 길어지지 않도록 작성 합니다.
 
-<img alt="css04" src="img/css04.jpg" width="80%" >
+<img alt="css04" src="img/css_1-4.jpg" width="80%" >
+<p></p>
 
-- CSS의 포함방법에는 <strong>`내부 스타일시트, 외부 스타일시트, 인라인 스타일`</strong> 총 3가지가 있다.
+- CSS의 포함방법에는 <strong>`내부 스타일시트, 외부 스타일시트, 인라인 스타일`</strong> 총 3가지가 있습니다.
   
 ##### 1) 내부 스타일시트
 ```html

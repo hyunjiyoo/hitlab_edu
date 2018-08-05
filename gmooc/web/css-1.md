@@ -19,7 +19,7 @@
 
 CSS는 HTML 문서를 표현하는 방법을 기술하는 언어입니다. 일반적으로 HTML 웹 페이지의 스타일을 지정할 때 사용하는 언어라고 생각해도 됩니다. CSS 표준은 1996년부터 웹 표준으로 채택되었으며 현재에는 CSS3 버전을 사용하고 있습니다.
 
-<img alt="css_1-1" src="img/css_1-1.png" width="80%" >
+<img alt="css_1-1" src="img/css_1-1.png" width="60%" >
 <p></p>
 
 - CSS란 <strong>`Cascading Style Sheet`</strong>의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
@@ -80,7 +80,7 @@ Cascading Style Sheet
 
 CSS는 디자인, 레이아웃 및 다양한 장치 및 화면 크기에 대한 디스플레이의 변형을 포함하여 웹 페이지의 스타일을 정의하는 데 사용됩니다. 
 
-<img alt="css_1-2" src="img/css_1-2.png" width="80%" >
+<img alt="css_1-2" src="img/css_1-2.png" width="100%" >
 <p></p>
 
 - 화면의 크기가 다른 기기들의 사이즈를 제어해주며, 웹 페이지의 레이아웃과 디자인을 구성합니다.
@@ -120,7 +120,7 @@ CSS는 디자인, 레이아웃 및 다양한 장치 및 화면 크기에 대한 
 
 CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지정할 HTML 요소를 가리킵니다. 선언에는 CSS 속성 이름과 값이 포합됩니다. 
 
-<img alt="css_1-3" src="img/css_1-3.png" width="60%" >
+<img alt="css_1-3" src="img/css_1-3.png" width="50%" >
 <p></p>
 
 - CSS규칙은 <strong>`선택자(selector)`</strong>와 <strong>`선언부(declaration)`</strong>로 구성됩니다.
@@ -187,7 +187,7 @@ h1 {
 
 CSS의 포함방법에는 <strong>`내부 스타일시트, 외부 스타일시트, 인라인 스타일`</strong> 총 3가지가 있습니다.
 
-<img alt="css_1-4" src="img/css_1-4.jpg" width="80%" >
+<img alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
 <p></p>
 
 ##### 1) 내부 스타일시트

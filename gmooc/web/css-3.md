@@ -5,12 +5,12 @@
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
-## CSS - Box Model
+## CSS - 박스 모델
 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
 
 ### 목차
 1. CSS 단위
-2. Box Model  
+2. 박스 모델
 
 ---
 ## 1. CSS 단위
@@ -72,15 +72,14 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 <br />
 
 ---
-## 2. Box model
+## 2. 박스 모델
 
-CSS에서는 디자인과 레이아웃에 대해 'Box model' 이라는 용어를 사용합니다. 
-CSS 'Box model'은 본질적으로 모든 HTML 요소를 감싸는 상자입니다.
+CSS에서는 디자인과 레이아웃에 대해 '박스 모델' 이라는 용어를 사용합니다. CSS '박스 모델'은 본질적으로 모든 HTML 요소를 감싸는 상자입니다.
 
 <img alt="css_3-2" src="img/css_3-2.png" width="90%" >
 <p></p>
 
-- Box Model에는 Margin, Border, Padding, Height/Width 가 있습니다.
+- 박스 모델에는 Margin, Border, Padding, Height/Width 가 있습니다.
 - <strong>Content Box</strong> - 이 박스의 길이와 너비가 Height/Width가 되며, 이 안에 Text와 Image가 들어갑니다.
 - <strong>Padding Box</strong> - Content Box를 둘러싼 눈에 보이지 않는 영역입니다.
 - <strong>Border Box</strong> - Content와 Padding Box를 둘러싼 경계선입니다.

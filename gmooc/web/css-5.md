@@ -19,7 +19,7 @@
 
 HTML 태그는 인라인과 블록, 인라인-블록 요소 3가지로 구분할 수 있습니다.
 
-<img alt="css_5-1" src="img/css_5-1.png" width="80%" >
+<img alt="css_5-1" src="img/css_5-1.png" width="60%" >
 <p></p>
 
 - 인라인 요소는 특정부분만 영역을 차지합니다. 
@@ -80,7 +80,7 @@ HTML 태그는 인라인과 블록, 인라인-블록 요소 3가지로 구분할
 
 Align은 요소들을 정렬하는 속성입니다. text-align은 글자를 정렬합니다. 
 
-<img alt="css_5-2" src="img/css_5-2.jpg" width="80%" >
+<img alt="css_5-2" src="img/css_5-2.jpg" width="60%" >
 
 - Left는 왼쪽 정렬, Right는 오른쪽 정렬하는 속성값입니다.
 - Center는 중앙 정렬, Justify는 양쪽 정렬하는 속성값입니다.
@@ -191,11 +191,11 @@ Absolute는 절대 위치이며, 조상객체의 위치를 좌표의 기준으�
 <br />
 
 ---
-## 3. Float
+## 4. Float
 
 float 라는 단어는 원래 ‘뜨다’ 라는 의미이며, 웹페이지에서 이미지를 어떻게 띄워서 텍스트와 함께 배치할 것인가에 대한 속성입니다.
 
-<img alt="css_5-4" src="img/css_5-4.png" width="80%" >
+<img alt="css_5-4" src="img/css_5-4.png" width="60%" >
 
 - Float 속성은 이미지와 텍스트를 배치해주는 역할입니다.
 - 현재는 웹페이지의 배치 및 레이아웃용으로 사용되고 있습니다.

@@ -50,10 +50,7 @@
 <p></p>
 <div markdown="1">
 
-```
- CSS가 어떤 태그에 스타일을 정의할 때, 어떤 태그에 정의할 지에 대한 문법이 필요하게 되는데 그것을 선택자라고 합니다.
-```
-
+> CSS가 어떤 태그에 스타일을 정의할 때, 어떤 태그에 정의할 지에 대한 문법이 필요하게 되는데 그것을 선택자라고 합니다.
 </div>
 </details>
 
@@ -81,15 +78,15 @@ h1 { color: red; }
 <img alt="css_2-2" src="img/css_2-2.png" width="80%" >
 <p></p>
 
-##### 1) 태그 선택자
+#### 1) 태그 선택자
 ```css
 h1 { color: blue; }
 ```
-##### 2) 아이디 선택자
+#### 2) 아이디 선택자
 ```css
 #id_name { color: blue; }
 ```
-##### 3) 클래스 선택자
+#### 3) 클래스 선택자
 ```css
 .class_name { color: blue; }
 ```
@@ -176,13 +173,13 @@ h1 { color: red; }
 - RGBA는 색상에 투명도를 적용시킬 때 사용하며, 0~1 사이의 숫자로 나타냅니다.
 - CSS 배경속성에는 배경색, 이미지, 배경반복 등이 있습니다.
 
-##### 1) CSS Color
+#### 1) CSS Color
 ```css
 #text1 { color: red; }
 #text2 { color: #FF000000; }
 #text3 { color: rgb(255, 0, 0); }
 ```
-##### 2) CSS Background-color
+#### 2) CSS Background-color
 ```css
 #box { 
   background-color: green;

@@ -22,8 +22,8 @@ CSS는 HTML 문서를 표현하는 방법을 기술하는 언어입니다. 일�
 <img alt="css_1-1" src="img/css_1-1.png" width="60%" >
 <p></p>
 
-- CSS란 <strong>`Cascading Style Sheet`</strong>의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
-- 웹 페이지의 <strong>`내용(HTML)`</strong>과 <strong>`스타일(CSS)`</strong>을 분리해주어 작업을 효율적으로 수행할 수 있도록 도와줍니다.
+- CSS란 `Cascading Style Sheet`의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
+- 웹 페이지의 `내용(HTML)`과 `스타일(CSS)`을 분리해주어 작업을 효율적으로 수행할 수 있도록 도와줍니다.
 - HTML문서를 디자인하는 언어입니다.
 
 ### 동영상 강좌
@@ -58,10 +58,8 @@ CSS는 HTML 문서를 표현하는 방법을 기술하는 언어입니다. 일�
 Cascading Style Sheet
 ```
 </div>
-
 </details>
 
----
 #### 2) HTML에 CSS를 추가할 때, 웹 페이지에서 달라지는 점은 무엇입니까?
 <details>
 <summary>해답보기</summary>
@@ -71,11 +69,11 @@ Cascading Style Sheet
 - 레이아웃
 - 디자인
 </div>
-
 </details>
 
 <br />
 
+---
 ## 2. 사용 이유
 
 CSS는 디자인, 레이아웃 및 다양한 장치 및 화면 크기에 대한 디스플레이의 변형을 포함하여 웹 페이지의 스타일을 정의하는 데 사용됩니다. 
@@ -107,10 +105,9 @@ CSS는 디자인, 레이아웃 및 다양한 장치 및 화면 크기에 대한 
 <div markdown="1">
 
 ```
-~~~~하기 위해서
+해상도가 다른 화면과 장치들의 웹 페이지에 레이아웃을 구성하고, 스타일을 입히기 위해서 
 ```
 </div>
-
 </details>
 
 <br />
@@ -118,12 +115,12 @@ CSS는 디자인, 레이아웃 및 다양한 장치 및 화면 크기에 대한 
 ---
 ## 3. 기본 문법
 
-CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지정할 HTML 요소를 가리킵니다. 선언에는 CSS 속성 이름과 값이 포합됩니다. 
+CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지정할 HTML 요소를 가리킵니다. 선언에는 CSS 속성 이름과 값이 포함됩니다. 
 
 <img alt="css_1-3" src="img/css_1-3.png" width="50%" >
 <p></p>
 
-- CSS규칙은 <strong>`선택자(selector)`</strong>와 <strong>`선언부(declaration)`</strong>로 구성됩니다.
+- CSS규칙은 `선택자(selector)`와 `선언부(declaration)`로 구성됩니다.
 - 모든 HTML요소가 선택자가 될 수 있습니다.
 
 
@@ -154,17 +151,12 @@ CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지�
 <div markdown="1">
 
 ```css
-<style>
-h1 {
-    color: green;
-}
-</style>
+h1 { color: green; }
 ```
 </div>
-
 </details>
 
-#### 2) 위 코드에 font가 'Gothic'인 스타일을 추가하시오.
+#### 2) 위 코드에 폰트가 'Gothic'인 스타일을 추가하시오.
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -177,7 +169,6 @@ h1 {
 }
 ```
 </div>
-
 </details>
 
 <br />
@@ -185,7 +176,7 @@ h1 {
 ---
 ## 4. 포함 방법
 
-CSS의 포함방법에는 <strong>`내부 스타일시트, 외부 스타일시트, 인라인 스타일`</strong> 총 3가지가 있습니다.
+CSS의 포함방법에는 `내부 스타일시트, 외부 스타일시트, 인라인 스타일` 총 3가지가 있습니다.
 
 <img alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
 <p></p>
@@ -201,6 +192,7 @@ h1 {
     color: maroon;
     margin-left: 40px;
 } 
+</style>
 ```
 ##### 2) 외부 스타일시트
 ```html
@@ -236,7 +228,7 @@ h1 {
   > https://mzl.la/2dggA9Q
 
 ### 퀴즈
-#### 1) CSS포함방법 3가지를 쓰고, 그 차이점를 서술하시오.
+#### 1) CSS포함방법 3가지를 쓰시오.
 <details>
 <summary>해답보기</summary>
 <p></p>

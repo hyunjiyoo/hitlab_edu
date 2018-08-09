@@ -156,7 +156,7 @@ h1 { color: green; }
 </div>
 </details>
 
-#### 2) 위 코드에 폰트가 'Gothic'인 스타일을 추가하시오.
+#### 2) 1번 코드에 폰트가 'Gothic'인 스타일을 추가하시오.
 <details>
 <summary>해답보기</summary>
 <p></p>

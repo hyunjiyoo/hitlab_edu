@@ -23,7 +23,7 @@
 - 부트스트랩을 이용하면 반응형 디자인을 쉽게 만들 수 있습니다.
 - 다양한 기능으로 사용자가 쉽게 제작, 유지, 보수 할 수 있도록 도와줍니다.
 - 부트스트랩은 CSS 라이브러리이므로 외부 부트스트랩 라이브러리를 먼저 HTML에 포함시켜야 합니다.
-```html
+```md
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <!-- jQuery library -->

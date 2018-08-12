@@ -99,16 +99,16 @@
 ##### 예시) 3개의 동일한 열
 ```html
 <div class="row">
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-4">4-Block</div>
 </div>
 ```
 ##### 예시) 2개의 다른 열
 ```html
 <div class="row">
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-8">8칸</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-8">8-Block</div>
 </div>
 ```
 
@@ -133,8 +133,8 @@
 
 ```html
 <div class="row">
-  <div class="col-sm-8">8칸</div>
-  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-8">8-Block</div>
+  <div class="col-sm-4">4-Block</div>
 </div>
 ```
 </div>

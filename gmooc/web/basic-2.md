@@ -34,9 +34,11 @@
 - Java - 상수형 데이터 타입
   > https://youtu.be/YYjS4wKW_Ug
 
+
 ### 참고 자료
 - 데이터타입
   > https://opentutorials.org/course/1223/5375
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -116,7 +118,7 @@
 ### 동영상 강좌
 - Git : Git과 SourceTree설치 - 윈도우
   > https://youtu.be/N_rpDCZxRCY
-- [HD] 10분만에 배우는 깃헙 기본기 강좌 3강 - 깃 설치하기!
+- 10분만에 배우는 깃헙 기본기 강좌 3강 - 깃 설치하기!
   > https://vimeo.com/195774649
 
 
@@ -131,7 +133,7 @@
 - How to Install Intellij IDEA on Windows 8 / Windows 10 + Creating First Hello World Java Application
   > https://youtu.be/2IqfF4WMKGc
  
- 
+
  ---
  <a id="m8"></a>
 
@@ -140,6 +142,7 @@
 ### 동영상 강좌
 - Visual Studio Code 설치
   > https://youtu.be/ZfO-UEVB3RI
+
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree

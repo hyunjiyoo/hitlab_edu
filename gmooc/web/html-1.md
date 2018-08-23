@@ -40,9 +40,12 @@
   > http://bit.ly/2NCDvP5
 
 ### 참고 자료
-- 웹이란 무엇인가: http://bit.ly/2zWAYgD
-- 웹의 역사: http://bit.ly/2uTkcZS
-- 인터넷과 웹의 역사: http://bit.ly/2mz5fIE
+- 웹이란 무엇인가
+  > http://bit.ly/2zWAYgD
+- 웹의 역사
+  > http://bit.ly/2uTkcZS
+- 인터넷과 웹의 역사
+  > http://bit.ly/2mz5fIE
 
 ### 퀴즈
 #### 1) 월드 와이드 웹이란 무엇인가
@@ -51,9 +54,7 @@
 <p></p>
 <div markdown="1">
 
-```
-다양한 형태의 데이터와 정보에 접근할 수 있도록 해주는 인터넷 서비스
-```
+> 다양한 형태의 데이터와 정보에 접근할 수 있도록 해주는 인터넷 서비스
 
 </div>
 </details>
@@ -64,9 +65,8 @@
 <p></p>
 <div markdown="1">
 
-```
-인터넷은 컴퓨터 네트워크 망을 의미하고, 웹은 인터넷 서비스 중 하나입니다.
-```
+> 인터넷은 컴퓨터 네트워크 망을 의미하고, 웹은 인터넷 서비스 중 하나입니다.
+
 </div>
 </details>
 
@@ -96,9 +96,12 @@
 
 
 ### 참고 자료
-- HTML 입문: http://bit.ly/2mBnMUR
-- HTML5와 XHTML: http://bit.ly/2LDiX8t  
-- HTML 기초: http://bit.ly/2JLN7V5
+- HTML 입문
+  > http://bit.ly/2mBnMUR
+- HTML5와 XHTML
+  > http://bit.ly/2LDiX8t  
+- HTML 기초
+  > http://bit.ly/2JLN7V5
 
 ### 퀴즈
 #### 1) HTML은 무엇의 약자인가
@@ -107,9 +110,7 @@
 <p></p>
 <div markdown="1">
 
-```
-HyperText Markup Language
-```
+- HyperText Markup Language
 
 </div>
 </details>
@@ -140,28 +141,30 @@ HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 
 
 
 ### 참고 자료
-- 태그, 태그의 속성: http://bit.ly/2uWbcmU
-- 주석: http://bit.ly/2NF5eyz
-- 태그, 요소, 속성, 변수: http://bit.ly/2JOkQ07
+- 태그, 태그의 속성
+  > http://bit.ly/2uWbcmU
+- 주석
+  > http://bit.ly/2NF5eyz
+- 태그, 요소, 속성, 변수
+  > http://bit.ly/2JOkQ07
 
 
 ### 퀴즈
 #### 1) 옳게 태그를 사용한 것은 무엇인가
-1. `<p>안녕하세요.`
-2. `<strong><p>안녕하세요<strong><p>`
-3. `<p>안녕하세요</p>`
-4. `안녕하세요.</strong>`
+1. \<p>안녕하세요.
+2. \<strong>\<p>안녕하세요\<strong>\<p>
+3. \<p>안녕하세요\</p>
+4. 안녕하세요.\</strong>
+
 <details>
 <summary>해답보기</summary>
 <p></p>
 <div markdown="1">
-정답 : 3번
 
-- 1번 `<p>안녕하세요.` : 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져야 된다.
-
-- 2번 `<strong><p>안녕하세요<strong><p>` : 태그 안에 다른 태그가 들어 갈 수 있으나, 연 순서대로 닫아야 한다. 
-
-- 4번 `안녕하세요.</strong>` : 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져야 된다. 
+- 정답 : 3번
+> [1번] `<p>안녕하세요.` : 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져야 된다.   
+> [2번] `<strong><p>안녕하세요<strong><p>` : 태그 안에 다른 태그가 들어 갈 수 있으나, 연 순서대로 닫아야 한다.    
+> [4번] `안녕하세요.</strong>` : 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져야 된다. 
 
 </div>
 </details>
@@ -172,8 +175,8 @@ HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 
 <p></p>
 <div markdown="1">
 
-```
-<!-- -->
+```html
+<!-- 저는 주석입니다. -->
 ```
 
 </div>
@@ -188,11 +191,11 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 <img alt="샘플이미지" src="img/html_1-4.jpg" width="80%">
 <!-- 사진 주소 : http://lux.cuenet.kr/93-->
 
-
 - `<!DOCTYPE html>`: HTML5 문서를 선언하는 구문. 웹브라우저에게 문서가 HTML5로 작성됨을 알려준다.
 - `<html> ~ </html>`: HTML 문서의 시작과 끝을 알린다. 
 - `<head> ~ </head>`: 웹 페이지의 정보를 정의한다. 문서의 상단 제목을 표시하는 `<title>`태그, 문서 정보 설정하는 `<meta>`태그 등이 포함된다.
 - `<body> ~ </body>`: 문서의 본문에 해당하는 부분으로, 실제 화면에 나타나는 내용을 작성한다.
+
 
 ### 동영상 강좌
 - HTML 기본 구조 
@@ -210,9 +213,12 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 
 
 ### 참고 자료
-- 인코딩, Head태그, title 태그, meta 태그: http://bit.ly/2mA4Fu9
-- HTML의 기본구성: http://bit.ly/2mDkIHy
-- body, footer, header, head, html, meta, title 태그: http://bit.ly/2LuGaNa
+- 인코딩, Head태그, title 태그, meta 태그
+  > http://bit.ly/2mA4Fu9
+- HTML의 기본구성
+  > http://bit.ly/2mDkIHy
+- body, footer, header, head, html, meta, title 태그
+  > http://bit.ly/2LuGaNa
 
 ### 퀴즈
 #### 1) HTML의 기본 구조를 서술하시오.
@@ -221,7 +227,8 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 <p></p>
 <div markdown="1">
 
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
     <head>
     <title> </title>
@@ -242,9 +249,7 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 <p></p>
 <div markdown="1">
 
-```
-title 태그, meta 태그, 자바 스크립트 및 스타일시트 정의
-```
+> title 태그, meta 태그, 자바 스크립트 및 스타일시트 정의
 
 </div>
 </details>

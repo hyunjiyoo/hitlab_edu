@@ -63,8 +63,10 @@
 
 
 ### 참고 자료
-- form 태그: http://bit.ly/2uJ2cSO
-- HTML Forms: http://bit.ly/2uRY2XY
+- form 태그
+  > http://bit.ly/2uJ2cSO
+- HTML Forms
+  > http://bit.ly/2uRY2XY
 
 
 ### 퀴즈
@@ -75,9 +77,7 @@
 <p></p>
 <div markdown="1">
 
-```
-입력 받은 값을 저장할 페이지를 지정해준다.
-```
+> 입력 받은 값을 저장할 페이지를 지정해준다.
 
 </div>
 </details>
@@ -88,10 +88,9 @@
 <p></p>
 <div markdown="1">
 
-```
-get방식은 URL 뒤에 파라미터를 붙여서 데이터를 전달하는 방식이다. 
-post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보안에 좋다. 
-```
+- get방식은 URL 뒤에 파라미터를 붙여서 데이터를 전달하는 방식이다. 
+- post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보안에 좋다. 
+
 </div>
 </details>
 
@@ -140,7 +139,8 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 
 
 ### 참고 자료
-- button, form, input 태그: http://bit.ly/2uVyY2b
+- button, form, input 태그
+  > http://bit.ly/2uVyY2b
 
 
 ### 퀴즈
@@ -150,14 +150,13 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 <p></p>
 <div markdown="1">
 
-```
+```html
 <form>
     <input type="text">
 </form>
 ```
 
 </div>
-
 </details>
 
 #### 2) 제출 버튼을 만들기 위해 사용하는 input 태그의 속성은 무엇인가
@@ -166,9 +165,7 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 <p></p>
 <div markdown="1">
 
-```
-submit
-```
+- submit
 
 </div>
 
@@ -184,8 +181,7 @@ submit
 <p></p>
 <div markdown="1">
 
-`정답 : 2번`
-> action은 form의 속성이다.
+- [2번] : action은 form의 속성이다.
 </div>
 
 </details>

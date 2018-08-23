@@ -22,6 +22,7 @@
 `<h>` 태그는 제목을 나타낸다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타낸다. `<h1>`이 가장 높은 등급이며 크기도 가장 크고, `<h6>`이 가장 낮은 등급이며 크기도 가장 작다. 
 
 <img alt="샘플이미지" src="img/html_2-1.png" width="40%">
+<p></p>
 
 - 계층 구조에 맞게 순서대로 작성되어지는 것이 좋다.
 - 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로, 상황에 맞게 `<h>`의 등급을 잘 써주는 것이 중요하다.
@@ -37,8 +38,11 @@
 
 
 ### 참고 자료
-- h# 태그: http://bit.ly/2uXwxfI
-- h1 ~ h6: http://bit.ly/2Lh14Aa
+- h# 태그
+  > http://bit.ly/2uXwxfI
+- h1 ~ h6
+  > http://bit.ly/2Lh14Aa
+
 
 ### 퀴즈
 #### 1) 크기가 가장 큰 h태그는 무엇인가
@@ -47,9 +51,7 @@
 <p></p>
 <div markdown="1">
 
-```
-<h1>태그
-```
+- \<h1>태그
 
 </div>
 </details>
@@ -60,23 +62,23 @@
 ## 2. 문단
 `<p>`태그로 문단을 나타낸다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리하기 때문에, 문단 구분 시 `<p>`태그를, 줄 바꿈을 할 때는 `<br>`태그를 이용한다.
 
-
 ```html
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 ```
+
 <details>
 <summary>실행 결과 보기</summary>
 <p></p>
 <div markdown="1">
+
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 </div>
 
 </details>
-
 
 ```html
 <p> To break lines <br> in a text, <br> use the br element.
@@ -102,9 +104,13 @@
 
 
 ### 참고 자료
-- p 태그, br 태그: http://bit.ly/2O7hIzM
-- 문단을 정의하는 태그, BR 강제 줄바꿈: http://bit.ly/2A32lWc 
-- br, p 태그: http://bit.ly/2LEnwz7  
+- p 태그, br 태그
+  > http://bit.ly/2O7hIzM
+- 문단을 정의하는 태그, BR 강제 줄바꿈
+  > http://bit.ly/2A32lWc 
+- br, p 태그
+  > http://bit.ly/2LEnwz7  
+
 
 ### 퀴즈
 #### 1) p태그는 무엇을 나타내는 태그인가
@@ -113,9 +119,7 @@
 <p></p>
 <div markdown="1">
 
-```
-문단을 나타내는 태그
-```
+- 문단을 나타내는 태그
 
 </div>
 </details>
@@ -126,9 +130,7 @@
 <p></p>
 <div markdown="1">
 
-```
-<br> 또는 </br>
-```
+- \<br> 또는 \</br>
 
 </div>
 </details>
@@ -167,11 +169,17 @@
 - Formatting Tags 
   > http://bit.ly/2Lwb2wD `06:05`
 
+
 ### 참고 자료
-- b 요소와 strong 요소의 차이: http://bit.ly/2Lie6xh
-- b 태그, i 태그: http://bit.ly/2JQUo62
-- 텍스트 관련 태그: http://bit.ly/2NFyrtg
-- b, em, i, mark, strong, u 태그: http://bit.ly/2O8YCcF
+- b 요소와 strong 요소의 차이
+  > http://bit.ly/2Lie6xh
+- b 태그, i 태그
+  > http://bit.ly/2JQUo62
+- 텍스트 관련 태그
+  > http://bit.ly/2NFyrtg
+- b, em, i, mark, strong, u 태그
+  > http://bit.ly/2O8YCcF
+
 
 ### 퀴즈
 #### 1) b태그와 strong태그의 차이점을 서술하시오
@@ -180,15 +188,14 @@
 <p></p>
 <div markdown="1">
 
-```
-b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조하는 의미를 담고 있다.
-```
-</div>
+> b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조하는 의미를 담고 있다.
 
+</div>
 </details>
 
 ---
 <a id="m4"></a>
+
 ## 4. 목록
 목록을 만들기 위해서 `<li>`태그를 사용한다. 이 태그는 단독으로 쓰이지 않으며, `<ul>`혹은 `<ol>`의 내부에 들어간다. 리스트 나열 뿐 아니라 메뉴 등을 만들 때에도 사용한다. 
 
@@ -200,10 +207,12 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
   <li>Listenelement 3</li>
 </ul>
 ```
+
 <details>
 <summary>실행 결과 보기</summary>
 <p></p>
 <div markdown="1">
+
 <ul>
   <li>Listenelement 1</li>
   <li>Listenelement 2</li>
@@ -220,10 +229,12 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
   <li>Listenelement 3</li>
 </ol>
 ```
+
 <details>
 <summary>실행 결과 보기</summary>
 <p></p>
 <div markdown="1">
+
 <ol>
   <li>Listenelement 1</li>
   <li>Listenelement 2</li>
@@ -244,10 +255,15 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 - 하위 항목이 있는 리스트 
   > http://bit.ly/2JQWm6q (11:26~14:08) `02:42`
 
+
 ### 참고 자료
-- li 태그: http://bit.ly/2JNFVYu
-- 리스트 태그, 리스트의 type 속성: http://bit.ly/2LhVMV6
-- li, ol, ul 태그: http://bit.ly/2JKSPqs
+- li 태그
+  > http://bit.ly/2JNFVYu
+- 리스트 태그, 리스트의 type 속성
+  > http://bit.ly/2LhVMV6
+- li, ol, ul 태그
+  > http://bit.ly/2JKSPqs
+
 
 ### 퀴즈
 #### 1) ul태그와 ol태그의 차이점은 무엇인가
@@ -256,12 +272,9 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 <p></p>
 <div markdown="1">
 
-```
-<ol>은 순서가 있는 목록, <ul>은 순서가 없는 목록이다.
-```
+> \<ol>은 순서가 있는 목록, \<ul>은 순서가 없는 목록이다.
 
 </div>
-
 </details>
 
 ---
@@ -293,9 +306,13 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 
 
 ### 참고 자료
-- a 태그: http://bit.ly/2mFb3QN
-- 링크, 내부링크(책갈피 기능): http://bit.ly/2NDpyAb
-- a 태그: http://bit.ly/2NFbB4D
+- a 태그
+  > http://bit.ly/2mFb3QN
+- 링크, 내부링크(책갈피 기능)
+  > http://bit.ly/2NDpyAb
+- a 태그
+  > http://bit.ly/2NFbB4D
+
 
 ### 퀴즈
 #### 1) 상대경로와 절대경로의 차이점을 서술하시오
@@ -304,10 +321,8 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 <p></p>
 <div markdown="1">
 
-```
-절대경로는 고유한 경로로 root (/)에서부터 시작되는 위치이다. 
-상대경로는 html문서를 기준으로 경로를 인식하는 방법이다.
-```
+> 절대경로는 고유한 경로로 root (/)에서부터 시작되는 위치이다.   
+> 상대경로는 html문서를 기준으로 경로를 인식하는 방법이다.
 
 </div>
 </details>
@@ -318,9 +333,7 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 <p></p>
 <div markdown="1">
 
-```
-href(이동할 곳의 주소), target(페이지를 어떻게 열 것인가)
-```
+> href(이동할 곳의 주소), target(페이지를 어떻게 열 것인가)
 
 </div>
 </details>

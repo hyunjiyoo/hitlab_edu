@@ -37,10 +37,14 @@
 
 
 ### 참고 자료
-- img 태그: http://bit.ly/2NBIvTO
-- HTML Images: http://bit.ly/2JLirDA
-- 이미지를 삽입하는 방법, 이미지 경로 , 이미지 포맷, 이미지 정렬: http://bit.ly/2mEeYgY
-- img 태그: http://bit.ly/2JNEOZ0
+- img 태그
+  > http://bit.ly/2NBIvTO
+- HTML Images
+  > http://bit.ly/2JLirDA
+- 이미지를 삽입하는 방법, 이미지 경로 , 이미지 포맷, 이미지 정렬
+  > http://bit.ly/2mEeYgY
+- img 태그
+  > http://bit.ly/2JNEOZ0
 
 
 ### 퀴즈
@@ -52,10 +56,8 @@
 <p></p>
 <div markdown="1">
 
-```
-절대 경로 : /images/banner.gif
-상대 경로 : ../images/banner.gif
-```
+- 절대 경로 : /images/banner.gif
+- 상대 경로 : ../images/banner.gif
 
 </div>
 </details>
@@ -66,9 +68,8 @@
 <p></p>
 <div markdown="1">
 
-```
-이미지의 경로를 설정하는 src 속성은 필수적으로 적어줘야 한다.
-```
+> 이미지의 경로를 설정하는 src 속성은 필수적으로 적어줘야 한다.
+
 </div>
 </details>
 
@@ -96,10 +97,14 @@
 
 
 ### 참고 자료
-- table 태그: http://bit.ly/2uIZFrM
-- HTML Tables: http://bit.ly/2LyUCDK
-- 테이블, 열과 행의 확장, 여백과 경계선: http://bit.ly/2uTCIkV
-- col, table, td, th, tr 태그: http://bit.ly/2LHjENY
+- table 태그
+  > http://bit.ly/2uIZFrM
+- HTML Tables
+  > http://bit.ly/2LyUCDK
+- 테이블, 열과 행의 확장, 여백과 경계선
+  > http://bit.ly/2uTCIkV
+- col, table, td, th, tr 태그
+  > http://bit.ly/2LHjENY
 
 ### 퀴즈
 #### 1) 테이블에서 하나의 요소를 나타내기 위해 사용하는 태그는 무엇인가
@@ -108,7 +113,7 @@
 <p></p>
 <div markdown="1">
 
-```
+```html
 <td></td>
 ```
 
@@ -121,7 +126,7 @@
 <p></p>
 <div markdown="1">
 
-```
+```html
 <table>
     <tr>
         <td></td>
@@ -157,7 +162,7 @@
 <p></p>
 <div markdown="1">
 
-```
+```html
 <td rowspan="2">
 ```
 

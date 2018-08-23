@@ -1,15 +1,21 @@
-
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
+[![Dinfree][din-badge]][din-url]
+[![Subject][basic-badge]][din-url]
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
  ## JavaScript
 이 챕터에서는 웹개발자가 필수로 알아야하는 JavaScript 언어가 무엇인지, 어떤 특징을 가지고있는지, 기본 문법과 구문을 알아보고, JavaScript의 사용방법에 대해 소개합니다.
+
+
 ### 목차
-1. JavaScript 소개
-2. JavaScript 기본문법
+1. [JavaScript 소개](#m1)
+2. [JavaScript 기본문법](#m2)
+
 ---
+<a id="m1"></a>
+
 ## 1. JavaScript 소개
 ### JavaScript란
 - JavaScript는 객체(object) 기반의 스크립트 언어입니다.
@@ -20,6 +26,7 @@
 
 ### JavaScript의 특징
 ![샘플이미지](https://imgur.com/X39ar6b.jpg")
+
 1. JavaScript는 객체 기반의 스크립트 언어입니다.
 2. JavaScript는 동적이며, 타입을 명시할 필요가 없는 *인터프리터* 언어입니다.
 3. JavaScript는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.
@@ -29,24 +36,24 @@
 JavaScript는 웹 브라우저에 포함된 JavaScript 인터프리터가 소스 코드를 직접 해석하여 바로 실행해 줍니다.
 
 ### 동영상 강좌
-- JavaScript 개요(3분 18초)
-    > https://bit.ly/2LIT1YP  
-- JavaScript 기본구조(13분 05초)
-    >https://bit.ly/2JKOZh3 
-- JavaScript  오리엔테이션(23분 51초)
-    >https://bit.ly/2LdYPxr 
-- What is JavaScript?(2분 16초)
-    >https://bit.ly/2LwOuMc 
-- How Javascript works(3분 42초)
-    >https://youtu.be/b1ieJtIx1NY 
-- What Is JavaScript? What Does It Do?(5분 23초)
-    >https://bit.ly/2Lgcdkt 
+- JavaScript 개요
+  > https://bit.ly/2LIT1YP `03:18`
+- JavaScript 기본구조
+  > https://bit.ly/2JKOZh3 `13:05`
+- JavaScript  오리엔테이션
+  > https://bit.ly/2LdYPxr `23:51`
+- What is JavaScript?
+  > https://bit.ly/2LwOuMc `02:16`
+- How Javascript works
+  > https://youtu.be/b1ieJtIx1NY `03:42`
+- What Is JavaScript? What Does It Do?
+  > https://bit.ly/2Lgcdkt `05:23`
 
 ### 참고 자료
 - JavaScript Introduction
-    >  https://bit.ly/2o4KTKt 
+  > https://bit.ly/2o4KTKt 
 - JavaScript 입문
-    >  https://bit.ly/2uI2GbP 
+  > https://bit.ly/2uI2GbP 
 
 ### 퀴즈
 #### 1) 인터프리터 언어란 무엇인가요?
@@ -74,6 +81,10 @@ JavaScript는 웹 브라우저에 포함된 JavaScript 인터프리터가 소스
 ![샘플이미지](https://imgur.com/SVJrECL.jpg")
 </div>
 </details>
+
+
+---
+<a id="m2"></a>
 
 ## 2. JavaScript 기본 문법
 
@@ -137,10 +148,10 @@ b=5;
 c = a * b;
 ```
  사칙연산 외에도 여러 연산자(논리, 비교연산자)가 있습니다.<br><br>
-비교연산자
 
+- 비교연산자
 
-| **Operator** | Description                       |
+| Operator | Description                       |
 |----------|-----------------------------------|
 | **==**       | equal to                          |
 | **===**      | equal value and equal type        |
@@ -152,10 +163,10 @@ c = a * b;
 | **<=**       | less than or equal to             |
 | **?**        | ternary operator                  |
 
-논리연산자
 
+- 논리연산자
 
-| **Operator** | Description |
+| Operator | Description |
 |----------|-------------|
 | **&&**       | logical and |
 | &#124;	&#124;	       | logical or  |
@@ -176,13 +187,14 @@ c = a * b;
 
 **1. 내부 JavaScript 코드로 적용**<br>
 JavaScript 코드는 *script*태그를 사용하여 HTML 문서 안에 삽입할 수 있습니다.
-```javascript
+```html
 <script>
     document.getElementById("text").innerHTML = "여러분을 환영합니다!";
 </script>
 ```
 이렇게 삽입된 JavaScript 코드는 HTML 문서의 *head*태그나 *body*태그, 또는 양쪽 모두에 위치할 수 있습니다.
-```javascript
+
+```html
 <head>
 
     <meta charset="UTF-8">
@@ -238,49 +250,39 @@ function printDate() {
 ### 동영상 강좌
 
 - JavaScript의 기본적인 문법 
-    >https://bit.ly/2JLD2r7 
-17분 24초
+  > https://bit.ly/2JLD2r7 `17:24`
 - JavaScript의 기본 구문
-    >https://bit.ly/2uTsIbt 
-14분 58초
+  > https://bit.ly/2uTsIbt `14:58`
 - JavaScript 기초 
-    >https://bit.ly/2NETqMr 
-10분 43초
+  > https://bit.ly/2NETqMr `10:43`
 - JavaScript 기초 문법
-    >https://bit.ly/2A1SHD5 
-34분 13초
+  > https://bit.ly/2A1SHD5 `34:13`
 - JavaScript 변수 사용법
-    >https://bit.ly/2mABwiH 
-6분 41초
+  > https://bit.ly/2mABwiH `06:41`
 - JavaScript 반복문
-    >https://bit.ly/2JQyyQ6 
-11분 08초
+  > https://bit.ly/2JQyyQ6 `11:08`
 - JavaScript_반복문
-    >https://bit.ly/2mHdR09 
-8분 07초
+  > https://bit.ly/2mHdR09 `08:07`
 - JavaScript -조건문
-    >https://bit.ly/2uJDscV 
-6분 07초
+  > https://bit.ly/2uJDscV `06:07`
 - JavaScript 제어문
-    >https://bit.ly/2mDd14p 
-19분 50초
+  > https://bit.ly/2mDd14p `19:50`
 - JavaScript –조건문의 응용 (비교 연산자)
-    >https://bit.ly/2Lxtrt5 
-12분 57초
+  > https://bit.ly/2Lxtrt5 `12:57`
 - JavaScript -배열의 문법
-    >https://bit.ly/2LGMZYP 
-9분 15초
+  > https://bit.ly/2LGMZYP `09:15`
 
     
 ### 참고 자료
 - 기본문법
-    >  https://brunch.co.kr/@hee072794/27
+  > https://brunch.co.kr/@hee072794/27
 - 변수 
-    >  https://www.w3schools.com/js/js_intro.asp
+  > https://www.w3schools.com/js/js_intro.asp
 - 반복문
-    >  https://www.w3schools.com/js/js_loop_for.asp
+  > https://www.w3schools.com/js/js_loop_for.asp
 - 조건문
-    >  https://www.w3schools.com/js/js_if_else.asp
+  > https://www.w3schools.com/js/js_if_else.asp
+
 
 ### 퀴즈
 #### 1) JavaScript에서 변수를 선언하는 키워드는?
@@ -295,7 +297,6 @@ function printDate() {
 </div>
 </details>
 
----
 #### 2) JavaScript 코드를 작성하기 위한 태그는?
 <details>
 <summary>해답보기</summary>
@@ -307,8 +308,6 @@ function printDate() {
 ```
 </div>
 </details>
-
----
 
 #### 3) JavaScript에서 변수의 값을 출력하기 위한 코드 한줄 
 <details>
@@ -330,3 +329,8 @@ document.write(a);          //정답
 ```
 </div>
 </details>
+
+
+[din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
+[din-url]:https://github.com/dinfree
+[basic-badge]:https://img.shields.io/badge/core-basic-green.svg

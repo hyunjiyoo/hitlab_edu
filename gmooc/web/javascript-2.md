@@ -1,5 +1,7 @@
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
+[![Dinfree][din-badge]][din-url]
+[![Subject][basic-badge]][din-url]
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
@@ -7,10 +9,12 @@
  JavaScript의 기초적인 함수 사용법과 이벤트처리는 어떻게 하고, 어떤 방식이 있는지, 왜 사용하는지 알아봅니다. 
 
 ### 목차
-1. JavaScript 함수
-2. JavaScript 이벤트처리
+1. [JavaScript 함수](#m1)
+2. [JavaScript 이벤트처리](#m2)
 
 ---
+<a id="m1"></a>
+
 ## 1. JavaScript 함수
 
 ### 함수란
@@ -21,22 +25,23 @@
 ### 함수 선언 방법
 
 JavaScript에서 함수는 *function*이라는 키워드를 통해 정의됩니다. 함수명은 변수같이 지어질 수 있으며 파라미터를 가지고 있을수 있습니다.
-```javascript
-function name (one ,two ,three){
+
+```js
+function name (one, two, three){
     함수 기능
 }
 ```
 ### 함수 리턴값
 
 함수는 호출되면 리턴값을 내놓습니다.
-```javascript
+```js
 var a= name(2,3);      //2*3=6 리턴
 function name(x,y){
     return x*y;
 }
 ```
 함수의 리턴값이 없는 경우
-```javascript
+```js
 // addNum라는 이름의 함수를 정의함.
 
 function addNum(x, y) {    // x, y는 이 함수의 매개변수임.
@@ -48,28 +53,23 @@ addNum(2, 3);              // addNum() 함수에 인수로 2와 3을 전달하�
 ```
 ### 동영상 강좌
 - JavaScript 함수란?
-    >https://bit.ly/2zY2xWG 
-10분 07초
+    > https://bit.ly/2zY2xWG `10:07`
 - 함수 사용하기
-    >https://bit.ly/2uXlXW9 
-5분 44초
+    > https://bit.ly/2uXlXW9  `05:44`
 - JavaScript Functions
-    >https://bit.ly/2mzrSN0 
-6분 28초
+    > https://bit.ly/2mzrSN0 `06:28`
 - Javascript Functions Tutorial
-    >https://bit.ly/2uW6qpn 
-13분 49초
+    > https://bit.ly/2uW6qpn `13:49`
 - JavaScript 함수 (리턴)
-    >https://bit.ly/2Lwu7Pn 
-7분 19초
+    > https://bit.ly/2Lwu7Pn `07:19`
 
 
 ### 참고 자료
 - JavaScript Function Definitions
-    >  https://www.w3schools.com/js/js_function_definition.asp
+    > https://www.w3schools.com/js/js_function_definition.asp
     
-### 퀴즈
 
+### 퀴즈
 #### 1) JavaScript를 이용하여 두 값을 합하는 함수를 정의하세요
 <details>
 <summary>해답보기</summary>
@@ -98,8 +98,10 @@ var x=add(4,3);
 </details>
 
 ---
+<a id="m2"></a>
 
 ## 2. JavaScript 이벤트처리
+ 
 - 이벤트(event)란 웹 브라우저가 알려주는 HTML 요소에 대한 사건의 발생을 의미합니다.
 - 웹 페이지에 사용된 자바스크립트는 이렇게 발생한 이벤트에 반응하여 특정 동작을 수행할 수 있습니다. 따라서 클라이언트 측 JavaScript를 비동기식 이벤트 중심(event-driven)의 프로그래밍 모델이라고 합니다.
 - 사용자의 입력값을 가져올 수 있습니다.
@@ -167,36 +169,29 @@ function displayDate() {
 
 ### 동영상 강좌
 - JavaScript – 이벤트
-    >https://bit.ly/2NzNcxG 
-4분 24초
+  > https://bit.ly/2NzNcxG  `04:24`
 - 자바스크립트 이벤트 사용법
-    >https://bit.ly/2O9IpnF 
-17분 07초
+  > https://bit.ly/2O9IpnF `17:07`
 - JavaScript - 이벤트전파 (1/3) : 소개
-    >https://bit.ly/2O8OcK5 
-5분 08초
+  > https://bit.ly/2O8OcK5 `05:08`
 - JavaScript - 이벤트전파 (2/3) : 캡처링
-    >https://bit.ly/2NCqsNq 
-10분 38초
+  > https://bit.ly/2NCqsNq `10:38`
 - JavaScript - 이벤트전파 (3/3) : 버블링
-    >https://bit.ly/2LyDaPK 
-10분 27초
+  > https://bit.ly/2LyDaPK `10:27`
 - JavaScript - 마우스 이벤트
-    >https://bit.ly/2JKCUbG 
-14분 19초
+  > https://bit.ly/2JKCUbG `14:19`
 - JavaScript - 폼 이벤트
-    >https://bit.ly/2LtfxZ0 
-8분 43초
+  > https://bit.ly/2LtfxZ0 `08:43`
 - JavaScript - 문서로드 이벤트
-    >https://bit.ly/2Lhg1SR 
-10분 19초
+  > https://bit.ly/2Lhg1SR `10:19`
     
+
 ### 참고 자료
 - JavaScript Events
-    >  https://www.w3schools.com/js/js_events.asp
+  > https://www.w3schools.com/js/js_events.asp
+
 
 ### 퀴즈
-
 #### 1) onClick 이벤트를 이용하여 버튼을 누르면 "hello world" 문구가 나오도록 하세요(힌트: style="display:none")
 <details>
 <summary>해답보기</summary>
@@ -234,4 +229,7 @@ function displayDate() {
 </div>
 </details>
 
----
+
+[din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
+[din-url]:https://github.com/dinfree
+[basic-badge]:https://img.shields.io/badge/core-basic-green.svg

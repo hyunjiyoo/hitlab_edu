@@ -1,5 +1,7 @@
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
+[![Dinfree][din-badge]][din-url]
+[![Subject][basic-badge]][din-url]
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
@@ -7,10 +9,12 @@
  JavaScript에서 사용하는 문서객체 모델(DOM)이 무엇이며, 어떻게 사용하고, 어느 때에 어떤 메서드를 사용하는지에 대해 알아봅니다. 
 
 ### 목차
-1. DOM의 개념
-2. Document 객체
+1. [DOM의 개념](#m1)
+2. [Document 객체](#m2)
 
 ---
+<a id="m1"></a>
+
 ## 1. DOM(Document Object Model)의 개념
 
 - DOM이란 XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스입니다.<br>
@@ -23,14 +27,14 @@ JavaScript는 이러한 DOM을 이용하여 HTML의 요소, 속성, 스타일 �
 
 ### 동영상 강좌
 - DOM이란
-    >https://bit.ly/2M0PaLa  5분 19초
+  > https://bit.ly/2M0PaLa  `05:19`
 - What is the DOM in JavaScript?
-    >https://bit.ly/2niZ0ZQ 
-4분31초
+  > https://bit.ly/2niZ0ZQ `04:31`
+
 
 ### 참고자료
 - DOM Intro
-    >https://bit.ly/2riNpxI 
+  > https://bit.ly/2riNpxI 
 
 
 ### 퀴즈
@@ -47,11 +51,13 @@ HTML의 요소, 속성, 스타일 등을 변경할 수 있습니다.
 </details> 
 
 ---
+<a id="m2"></a>
 
 ## 2. document 객체
 
 document 객체는 웹 페이지 그 자체를 의미합니다. <br>
 웹페이지에 존재하는 HTML 요소에 접근 할 때는 반드시 **document**객체부터 시작해야합니다.
+
 ### Document 메소드
 
 1) HTML 요소의 선택
@@ -131,23 +137,21 @@ The text from the intro paragraph is Hello World!
 
 ### 동영상 강좌
 - DOM 객체
-    >https://bit.ly/2LYf169 
-10분 33초
+  > https://bit.ly/2LYf169 `10:33`
 - DOCUMENT 객체
-    >https://bit.ly/2vGRQCA 
-7분 52초
+  > https://bit.ly/2vGRQCA `07:52`
 - 자바스크립트(javascript)와 DOM 프로그래밍
-    >https://bit.ly/2nk8nJ0 
-7분48초
+  > https://bit.ly/2nk8nJ0 `07:48`
 - DOM 메소드와 속성
-    >https://bit.ly/2vpvrdH 
-12분 11초
+  > https://bit.ly/2vpvrdH `12:11`
+
 
 ### 참고자료
 - DOM 메소드
-    >https://bit.ly/2qW7t9n 
+  > https://bit.ly/2qW7t9n 
 - DOM 요소
-    >https://bit.ly/2OjjRHR 
+  > https://bit.ly/2OjjRHR 
+
 
 ### 퀴즈
 #### 1) document 메소드를 이용하여 HTML 클래스이름이 “happy”에 속한 요소들을 모두 선택하시오.
@@ -175,4 +179,7 @@ ex) str.innerHTML="바꾸기";
 </div>
 </details> 
 
----
+
+[din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
+[din-url]:https://github.com/dinfree
+[basic-badge]:https://img.shields.io/badge/core-basic-green.svg

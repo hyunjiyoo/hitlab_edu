@@ -9,11 +9,13 @@
 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
 
 ### 목차
-1. 입력 양식이란
-2. 입력 양식 태그
-3. 다양한 입력 양식 태그
+1. [입력 양식이란](#m1)
+2. [입력 양식 태그](#m2)
+3. [다양한 입력 양식 태그](#m3)
 
 ---
+<a id="m1"></a>
+
 ## 1. 입력 양식이란
 입력 양식은 사용자에게 정보를 입력 받을 때 사용된다. 기본적으로 `<form>`태그가 사용되나, 
 `<form> </form>` 사이에 다양한 form 요소들을 위치시켜줘야 된다. form 태그에서 사용 할 수 있는 속성은 `method`와 `action`이 있다. `method`는 웹 서버와의 통신 방법을 지정한다. `get`과 `post` 두 가지 값이 존재한다. `action`은 입력 받은 값을 저장할 페이지를 지정한다. 
@@ -54,14 +56,13 @@
 - `get`은 URL뒤에 파라미터를 붙여서 데이터를 전달한다. `post`방식은 URL 뒤에 파라미터를 붙여서 전송하지 않고, HTTP Request 헤더에 파라미터를 붙여서 전송한다. get방식에 비해 보안상 우위에 있다. 
 
 ### 동영상 강좌
-- form 기본 (12:19)
-  > http://bit.ly/2uHYadt
-- GET과 POST의차이 (10:03)
-  > http://bit.ly/2A9oa6m
+- form 기본 
+  > http://bit.ly/2uHYadt `12:19`
+- GET과 POST의차이
+  > http://bit.ly/2A9oa6m `10:03`
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
 - form 태그: http://bit.ly/2uJ2cSO
 - HTML Forms: http://bit.ly/2uRY2XY
 
@@ -79,7 +80,6 @@
 ```
 
 </div>
-
 </details>
 
 #### 2) get방식과 post 방식의 차이에 대해 서술하시오
@@ -93,8 +93,10 @@ get방식은 URL 뒤에 파라미터를 붙여서 데이터를 전달하는 방�
 post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보안에 좋다. 
 ```
 </div>
-
 </details>
+
+---
+<a id="m2"></a>
 
 ## 2. 입력 양식 태그
 실제로 사용자가 양식을 입력하기 위한 태그는 `<input>`을 사용한다. `type` 속성을 통해 입력 양식의 종류를 나타내고, `name`을 통해 데이터 이름을, `value`을 통해 기본 값을 지정한다. 
@@ -123,22 +125,21 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 
 
 ### 동영상 강좌
-- 폼 관련 태그들 (12:11)
-  > http://bit.ly/2mAvZIN
-- input type (10:11)
-  > http://bit.ly/2JNfdPJ
-- input 태그 color 속성 (1:03)
-  > http://bit.ly/2uXDg9s
-- input 태그 date, month, week 속성 (2:24)
-  > http://bit.ly/2JNfYs3
-- fildset (6:52)
-  > http://bit.ly/2mAVlWU
-- 회원가입 폼 태그 예제 (23:00)
-  > http://bit.ly/2uWddPS (~23:00)
+- 폼 관련 태그들 
+  > http://bit.ly/2mAvZIN `12:11`
+- input type 
+  > http://bit.ly/2JNfdPJ `10:11`
+- input 태그 color 속성 
+  > http://bit.ly/2uXDg9s `01:03`
+- input 태그 date, month, week 속성 
+  > http://bit.ly/2JNfYs3 `02:24`
+- fildset 
+  > http://bit.ly/2mAVlWU `06:52`
+- 회원가입 폼 태그 예제 
+  > http://bit.ly/2uWddPS (~23:00) `23:00`
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
 - button, form, input 태그: http://bit.ly/2uVyY2b
 
 
@@ -188,7 +189,6 @@ submit
 </div>
 
 </details>
-
 
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg

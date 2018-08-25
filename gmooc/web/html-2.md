@@ -19,13 +19,13 @@
 <a id="m1"></a>
 
 ## 1. 제목
-`<h>` 태그는 제목을 나타낸다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타낸다. `<h1>`이 가장 높은 등급이며 크기도 가장 크고, `<h6>`이 가장 낮은 등급이며 크기도 가장 작다. 
+`<h>` 태그는 제목을 나타냅니다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타냅니다. `<h1>`이 가장 높은 등급으로 크기가 가장 크며 `<h6>`이 가장 낮은 등급으로 크기가 가장 작습니다. 
 
-<img alt="샘플이미지" src="img/html_2-1.png" width="40%">
+<img alt="html_2-1" src="img/html_2-1.png" width="40%">
 <p></p>
 
-- 계층 구조에 맞게 순서대로 작성되어지는 것이 좋다.
-- 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로, 상황에 맞게 `<h>`의 등급을 잘 써주는 것이 중요하다.
+- 계층 구조에 맞게 순서대로 작성하는 것을 권장합니다.
+- 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로 상황에 맞게 `<h>`의 등급을 사용해야 합니다.
 
 
 ### 동영상 강좌
@@ -62,25 +62,23 @@
 <a id="m2"></a>
 
 ## 2. 문단
-`<p>`태그로 문단을 나타낸다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리하기 때문에, 문단 구분 시 `<p>`태그를, 줄 바꿈을 할 때는 `<br>`태그를 이용한다.
+`<p>`태그로 문단을 나타냅니다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리합니다. 그렇기 때문에 문단 구분 시 `<p>`태그를, 줄 바꿈시 `<br>`태그를 이용합니다.
 
 ```html
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 ```
-
 <details>
 <summary>실행 결과 보기</summary>
 <p></p>
-<div markdown="1">
 
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 </div>
-
 </details>
+<br>
 
 ```html
 <p> To break lines <br> in a text, <br> use the br element.
@@ -91,11 +89,11 @@
 <div markdown="1">
 <p> To break lines <br> in a text, <br> use the br element.
 </div>
-
 </details>
+<br>
 
-- `<br>`태그는 닫는 태그를 필요로 하지 않는다. `</br>`로 사용하기도 한다.
-- 문단 구분을 위해 `<br/>` 태그를 연속으로 사용하는 것 보다는 `<p>`태그를 사용하는 것을 권장한다.
+- `<br>`태그는 닫는 태그가 없습니다. `</br>`로 사용하기도 합니다.
+- 문단 구분을 위해 `<br/>` 태그를 연속으로 사용하는 것 보다는 `<p>`태그를 사용하는 것을 권장합니다.
 
 
 ### 동영상 강좌
@@ -115,7 +113,7 @@
 
 
 ### 퀴즈
-#### 1) p태그는 무엇을 나타내는 태그인가
+#### 1) \<p>태그는 무엇을 나타내는 태그입니까?
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -126,7 +124,7 @@
 </div>
 </details>
 
-#### 2) 개행을 원할 때 사용하는 태그는 무엇인가
+#### 2) 개행을 원할 때 사용하는 태그는 무엇입니까?
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -143,26 +141,26 @@
 <a id="m3"></a>
 
 ## 3. 형식
-텍스트에 특별한 의미를 부여하는 특별한 요소들이 있다. 텍스트를 굵게 하는 `<b>`와 `<strong>`, 텍스트를 기울이는 `<i>`와 `<em>`, 하이라이트인 `<mark>`, 가운데를 선으로 표시하는 `<del>` 등이 있다. 
+텍스트에 특별한 의미를 부여하는 특별한 요소들이 있습니다. 텍스트를 굵게 하는 `<b>`와 `<strong>`, 텍스트를 기울이는 `<i>`와 `<em>`, 하이라이트인 `<mark>`, 가운데를 선으로 표시하는 `<del>` 등이 있습니다. 
 
 | element | meaning |
-|:----:|:-----:|
-|`<i>...</i>` | Italics |
-|`<b>...</b>` | Bold |
-|`<tt>...</tt>` | Teletype (monospaced) |
-|`<u>...</u>` | Underline |
-|`<s>...</s>` | Strikethrough |
-|`<strike>...</strike>` | Strikethrough |
-|`<sub>...</sub>` | Subscript |
-|`<sup>...</sup>` | Superscript |
-|`<big>...</big>` | Bigger font (one size bigger) |
-|`<small>...</small>` | Smaller font (one size smaller) |
+|:----:|-----|
+|\<i> | Italics |
+|\<b> | Bold |
+|\<tt> | Teletype (monospaced) |
+|\<u> | Underline |
+|\<s> | Strikethrough |
+|\<strike> | Strikethrough |
+|\<sub> | Subscript |
+|\<sup> | Superscript |
+|\<big> | Bigger font (one size bigger) |
+|\<small> | Smaller font (one size smaller) |
 
 
 <!--이미지 주소 : http://96.0.245.61/mca_course/kurukshetra_university/semester4/webengineering/text_level_elements.php-->
 
-- `<b>`는 텍스트가 중요하지 않지만 단순 진하게 표시할 때, `<strong>`은 중요한 텍스트를 표시할 때 사용한다.
-- `<i>`는 이탤릭체로 표시할 때, `<em>`은 특정 텍스트를 이탤릭체로 강조하고자 할 때 사용한다.
+- `<b>`는 텍스트가 중요하지 않지만 단순 진하게 표시할 때, `<strong>`은 중요한 텍스트를 표시할 때 사용합니다.
+- `<i>`는 이탤릭체로 표시할 때, `<em>`은 특정 텍스트를 이탤릭체로 강조하고자 할 때 사용합니다.
 
 
 ### 동영상 강좌
@@ -186,13 +184,13 @@
 
 
 ### 퀴즈
-#### 1) b태그와 strong태그의 차이점을 서술하시오
+#### 1) \<b>태그와 \<strong>태그의 차이점을 서술하시오
 <details>
 <summary>해답보기</summary>
 <p></p>
 <div markdown="1">
 
-> b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조하는 의미를 담고 있다.
+> \<b>태그는 단순히 텍스트를 진하게, \<strong>태그는 텍스트를 강조하는 의미를 담고 있습니다.
 
 </div>
 </details>
@@ -203,7 +201,7 @@
 <a id="m4"></a>
 
 ## 4. 목록
-목록을 만들기 위해서 `<li>`태그를 사용한다. 이 태그는 단독으로 쓰이지 않으며, `<ul>`혹은 `<ol>`의 내부에 들어간다. 리스트 나열 뿐 아니라 메뉴 등을 만들 때에도 사용한다. 
+목록을 만들기 위해서 `<li>`태그를 사용합니다. 이 태그는 단독으로 쓰이지 않으며 `<ul>` 또는 `<ol>` 내부에 들어갑니다. 리스트 나열 뿐 아니라 메뉴를 만들 때에도 사용합니다. 
 
 
 ```html
@@ -213,7 +211,6 @@
   <li>Listenelement 3</li>
 </ul>
 ```
-
 <details>
 <summary>실행 결과 보기</summary>
 <p></p>
@@ -225,34 +222,31 @@
   <li>Listenelement 3</li>
 </ul>
 </div>
-
-</details>
-
-```html
-<ol>
-  <li>Listenelement 1</li>
-  <li>Listenelement 2</li>
-  <li>Listenelement 3</li>
-</ol>
-```
-
-<details>
-<summary>실행 결과 보기</summary>
-<p></p>
-<div markdown="1">
-
-<ol>
-  <li>Listenelement 1</li>
-  <li>Listenelement 2</li>
-  <li>Listenelement 3</li>
-</ol>
-</div>
-
 </details>
 <br>
 
-- `<ol>` 태그는 번호를 메기는 순서가 있는 목록을 만든다.
-- `<ul>` 태그는 순서없이 모양으로 목록을 만든다.
+```html
+<ol>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ol>
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<ol>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ol>
+</div>
+</details>
+<br>
+
+- `<ol>` 태그는 번호를 메기는 순서가 있는 목록을 만듭니다.
+- `<ul>` 태그는 순서없이 모양으로 목록을 만듭니다.
 
 
 ### 동영상 강좌
@@ -272,13 +266,13 @@
 
 
 ### 퀴즈
-#### 1) ul태그와 ol태그의 차이점은 무엇인가
+#### 1) \<ul>태그와 \<ol>태그의 차이점은 무엇입니까?
 <details>
 <summary>해답보기</summary>
 <p></p>
 <div markdown="1">
 
-> \<ol>은 순서가 있는 목록, \<ul>은 순서가 없는 목록이다.
+> \<ol>은 순서가 있는 목록, \<ul>은 순서가 없는 목록입니다.
 
 </div>
 </details>
@@ -289,15 +283,22 @@
 <a id="m5"></a>
 
 ## 5. 하이퍼링크
-`<a>`태그를 사용해 하이퍼링크를 걸어준다. 기본적으로 `href`속성을 가지며, 이동할 페이지의 주소를 적어준다. `target` 속성은 페이지를 어떻게 열 것인가를 결정한다. a태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있다. 
+`<a>`태그를 사용해 하이퍼링크를 걸어줍니다. 기본적으로 `href`속성을 가지며, 이 속성에는 이동할 페이지의 주소를 적어줍니다. `target`속성은 페이지를 어떻게 열 것인가를 결정합니다. \<a>태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있습니다. 
 
-<img alt="샘플이미지" src="img/html_2-6.png" >
+<img alt="html_2-6" src="img/html_2-6.png" width="100%" >
 <!-- 사진 주소 : http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/text-markup-with-html/-->
 
 
-- URL은 상대경로와 절대경로로 표현 할 수 있다. `절대경로`는 고유한 경로로 `root (/)에서부터 시작되는 위치`이다. 웹브라우저 주소도 이에 속한다. `상대경로`는 `html문서를 기준으로 경로를 인식`하는 방법이다. 
-- `target` 속성 값: `_blank` 새로운 웹 브라우저 창에 연다, `_self` 현재 웹 브라우저 창에 연다 (기본), `_parent` 부모 웹 브라우저 창에 연다, `_top` 웹 브라우저 전체 영역에 연다.
-- a태그를 이용해 같은 문서 내에서 특정 위치로 이동하는 `책갈피` 기능을 사용 할 수 있다. a태그의 `name`속성 혹은 `id` 속성을 이용해, 문서 내 이동할 곳의 위치를 지정하고 `href=#name(id)` 값을 입력해 링크를 걸 수 있다.
+- URL은 `상대경로`와 `절대경로`로 표현 할 수 있습니다. 
+  - 절대경로는 고유한 경로로 root(/)에서부터 시작되는 위치입니다. 웹브라우저 주소가 이에 속합니다. 
+  - 상대경로는 HTML문서를 기준으로 경로를 인식하는 방법입니다. 
+- target 속성 값
+  - `_blank` - 새로운 웹 브라우저 창으로 엽니다.
+  - `_self` - 현재 웹 브라우저 창으로 엽니다. (기본값)
+  - `_parent` - 부모 웹 브라우저 창으로 엽니다.
+  - `_top` - 웹 브라우저 전체 영역에 엽니다.
+- \<a>태그를 이용해 같은 문서 내에서 특정 위치로 이동하는 `책갈피` 기능을 사용 할 수 있습니다. 
+- \<a>태그의 `name`속성이나 `id`속성을 이용해 문서 내 이동위치를 지정하고 `href = #name(id)` 값을 입력해 링크를 걸 수 있습니다.
 
 
 ### 동영상 강좌
@@ -329,8 +330,8 @@
 <p></p>
 <div markdown="1">
 
-> 절대경로는 고유한 경로로 root (/)에서부터 시작되는 위치이다.   
-> 상대경로는 html문서를 기준으로 경로를 인식하는 방법이다.
+> 절대경로는 고유한 경로로 root (/)에서부터 시작되는 위치입니다.   
+> 상대경로는 HTML문서를 기준으로 경로를 인식하는 방법입니다.
 
 </div>
 </details>

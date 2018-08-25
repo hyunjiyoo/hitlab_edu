@@ -36,6 +36,7 @@
 <summary>실행 결과 보기</summary>
 <p></p>
 <div markdown="1">
+
 <form action="#" method="get">
   <fieldset>
     <legend>Shipping Address</legend>
@@ -46,6 +47,7 @@
     <p>zip: <input type="text" name="Zip" /></p>
   </fieldset>
 </form>
+
 </div>
 </details>
 <br>
@@ -191,7 +193,7 @@
 <p></p>
 <div markdown="1">
 
-- [2번] : action은 \<form>의 속성입니다.
+- [2번] - action은 \<form>의 속성입니다.
 </div>
 </details>
 

@@ -23,8 +23,8 @@
 <img alt="html_1-1" src="img/html_1-1.png" width="70%">
 <!-- 이미지 주소 : http://techlearninghub.com/difference-bw-internet-web/ -->
 
-- 웹은 인터넷 상의 정보를 `하이퍼텍스트` 방식과 멀티미디어 환경에서 검색 할 수 있게 해주는 정보 검색 시스템입니다.
-- 웹 서비스의 목적은 많은 사람들이 정보를 쉽게 공유하고 접근할 수 있도록 하는 것 입니다.
+- 웹은 인터넷 상의 정보를 `하이퍼텍스트` 방식과 멀티미디어 환경에서 검색할 수 있게 해주는 정보 검색 시스템입니다.
+- 웹 서비스의 목적은 많은 사람들이 정보를 쉽게 공유하고 접근할 수 있도록 하는 것입니다.
 - 웹은 전 세계 컴퓨터를 연결하며 HTTP 프로토콜을 사용하고 HTML로 작성된 문서를 연결하여 멀티미디어 서비스를 제공합니다.
 - 인터넷은 `컴퓨터 네트워크 망`을 의미하고, 웹은 `인터넷 서비스`입니다.
 
@@ -79,7 +79,7 @@
 ## 2. HTML 소개
 웹 문서를 만들기 위해 사용하는 프로그래밍 언어 중 하나입니다. 하이퍼텍스트 작성을 위해 개발되었으며 대부분의 웹 페이지들은 HTML로 작성됩니다.
 
-<img alt="html_1-2-1" src="img/html_1-2-1.jpg" width="70%">
+<img alt="html_1-2-1" src="img/html_1-2-1.jpg" width="50%">
 <!-- 이미지 주소 : http://kyd5083.blogspot.com/2013/02/web-html.html -->
 
 - HTML은 `HyperText Markup Language`의 약자로 문서의 글자 크기나 색깔, 모양, 문서 이동 등에 관여합니다.
@@ -195,7 +195,7 @@ HTML에서는 `태그(Tag)`를 사용하며 태그는 `< >`를 사용하여 나�
 ## 4. HTML 기본 구조
 HTML 문서는 `<!DOCTYPE html>`, `<HTML>`, `<HEAD>`, `<TITLE>`, `<BODY>`의 기본태그로 이루어져 있습니다. 
 
-<img alt="html_1-4-1" src="img/html_1-4-1.png" width="60%">
+<img alt="html_1-4-1" src="img/html_1-4-1.png" width="40%">
 <!-- 사진 주소 : http://lux.cuenet.kr/93-->
 
 - `<!DOCTYPE html>`- HTML5 문서를 선언하는 구문. 웹브라우저에게 문서가 HTML5로 작성됨을 알려줍니다.

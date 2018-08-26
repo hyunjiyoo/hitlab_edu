@@ -189,8 +189,9 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
 </body>
 ```
 
-<img alt="css_4-3-2" src="img/css_4-3-2.png" width="20%" >
-<br><br>
+<img alt="css_4-3-2" src="img/css_4-3-2.png" width="30%">
+
+<br>
 
 |Selector|Example|Example description|
 |---|---|---|
@@ -200,7 +201,6 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
 |::first-line|p::first-line|Selects the first line of every \<p> element|
 |::selection|p::selection|Selects the portion of an element that is selected by a user|
 
-<br>
 
 ### 동영상 강좌
 - 가상클래스 선택자

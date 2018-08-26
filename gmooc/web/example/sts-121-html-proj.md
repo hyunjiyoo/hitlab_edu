@@ -26,11 +26,11 @@
 - 메인 화면 전체가 아닌 부분만 구성합니다.
 ```
 
-<img alt="proj_1-1" src="img/proj_1-1.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-1" src="img/proj_1-1.PNG" width="80%" style="border: 1px solid lightgrey">
 
 ### step-2> 레이아웃 분석하기
 
-<img alt="proj_1-2" src="img/proj_1-2.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-2" src="img/proj_1-2.PNG" width="80%" style="border: 1px solid lightgrey">
 
 - HTML \<table>태그를 이용합니다.
 - 먼저 헤더, 바디, 푸터 세부분으로 레이아웃을 나눕니다.
@@ -38,7 +38,7 @@
 
 ### step-3> 리소스 준비하기
 
-<img alt="proj_1-3" src="img/proj_1-3.gif" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-3" src="img/proj_1-3.gif" width="80%" style="border: 1px solid lightgrey">
 
 - 우클릭하여 이미지 저장이 안되는 컨텐츠는 캡처를 합니다.
 - 리소스는 해당 소스파일이 있는 폴더 안에 res폴더를 만들어 저장합니다.
@@ -87,7 +87,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-5" src="img/proj_1-5.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-5" src="img/proj_1-5.PNG" width="80%" style="border: 1px solid lightgrey">
 
 </details> 
 
@@ -118,7 +118,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-6" src="img/proj_1-6.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-6" src="img/proj_1-6.PNG" width="80%" style="border: 1px solid lightgrey">
 
 </details> 
 
@@ -167,7 +167,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-7" src="img/proj_1-7.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-7" src="img/proj_1-7.PNG" width="80%" style="border: 1px solid lightgrey">
 
 </details> 
 
@@ -188,7 +188,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-8" src="img/proj_1-8.PNG" width="80%" style="border: 1px solid lightgray">
+<img alt="proj_1-8" src="img/proj_1-8.PNG" width="80%" style="border: 1px solid lightgrey">
 
 </details> 
 
@@ -196,7 +196,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 
 테이블 속성의 border를 제거한 후 브라우저에서 실행 결과를 확인합니다.
 
-<img alt="proj_1-9" src="img/proj_1-9.PNG" width="80%" border="5px" style="border: 1px solid lightgray">
+<img alt="proj_1-9" src="img/proj_1-9.PNG" width="80%" border="5px" style="border: 1px solid lightgrey">
 
 ---
 <a id="m2"></a>

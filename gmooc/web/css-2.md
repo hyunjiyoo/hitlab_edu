@@ -23,15 +23,15 @@
 <img alt="css_2-1" src="img/css_2-1.png" width="100%" >
 -->
 
-| Selector | Example | Example description | CSS |
-|---------|--------|--------------------|--------|
-| <u>.class</u> | .intro | Selects all elements with class="intro" | 1 |
-| <u>#id</u> | #firstname | Selects the element with if="firstname" | 1 |
-| <u>*</u> | * | Selects all elements | 2 |
-| <u>element</u> | p | Select all \<p> elements | 1 |
-| <u>element,element</u> | div, p | Selects all \<div> elements and all \<p> elements | 1 |
-| <u>element element</u> | div p | Selects all \<p> elements inside \<div> elements | 1 |
-| <u>element>element</u> | div > p | Selects all \<p> elements where the parent is a \<div> element | 2 |
+| Selector | Example | Example description |
+|---------|--------|--------------------|
+| <u>.class</u> | .intro | Selects all elements with class="intro" |
+| <u>#id</u> | #firstname | Selects the element with if="firstname" |
+| <u>*</u> | * | Selects all elements |
+| <u>element</u> | p | Select all \<p> elements |
+| <u>element,element</u> | div, p | Selects all \<div> elements and all \<p> elements |
+| <u>element element</u> | div p | Selects all \<p> elements inside \<div> elements |
+| <u>element>element</u> | div > p | Selects all \<p> elements where the parent is a \<div> element |
 
 <p></p>
 
@@ -92,20 +92,20 @@ h1 { color: red; }
 <p></p>
 
 #### 1) 태그 선택자
-- 태그 선택자는 태그 이름으로 요소를 선택합니다.
-- 다수의 선택자들은 그룹핑하여 적용할 수 있습니다.
+- 태그 선택자는 `태그 이름`으로 요소를 선택합니다.
+- 다수의 선택자들은 `그룹핑`하여 적용할 수 있습니다.
 ```css
 h1,h2,h3,h4 { color: blue; }
 ```
 #### 2) 아이디 선택자
-- HTML 요소의 아이디 속성을 사용하여 특정 요소를 선택합니다.
-- 요소의 아이디는 페이지 내에서 고유해야하므로 아이디 선택자는 `하나의 고유한 요소를 선택`하는 데 사용됩니다.
+- HTML 요소의 `아이디 속성`을 사용하여 특정 요소를 선택합니다.
+- 요소의 아이디는 페이지 내에서 고유해야 하므로 아이디 선택자는 `하나의 고유한 요소를 선택`하는 데 사용됩니다.
 ```css
 #id_name { color: blue; }
 ```
 #### 3) 클래스 선택자
-- 클래스 선택자는 특정 클래스 속성이 있는 요소를 선택합니다.
-- 특정 클래스를 선택할 때에는 마침표(.) 다음에 클래스 이름을 씁니다.
+- 클래스 선택자는 `특정 클래스 속성`이 있는 요소를 선택합니다.
+- 특정 클래스를 선택할 때에는 `마침표(.) 다음에 클래스 이름`을 씁니다.
 - 특정 HTML 요소만 클래스의 영향을 받도록 지정할 수 있습니다.
 ```css
 .class_name1 { color: blue; }
@@ -186,13 +186,13 @@ h1 { color: red; }
 ---
 <a id="m3"></a>
 ## 3. 색상
-컴퓨터에서 사용하는 색상은 빛의 삼원색인 빨강색(Red), 초록색(Green), 파랑색(Blue)입니다. 이를 보통 RGB Color라고 부르는데, 각각의 색상은 0 ~ 255까지의 단계로 표현할 수 있습니다. 0부터 255를 16진수로 표현하면 00 ~ FF로 표현됩니다. CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도를 지원합니다.
+컴퓨터에서 사용하는 색상은 빛의 삼원색인 빨강색(Red), 초록색(Green), 파랑색(Blue)입니다. 이를 보통 RGB Color라고 부르는데, 각각의 색상은 0 ~ 255까지의 단계로 표현할 수 있습니다. 0부터 255를 16진수로 표현하면 00 ~ FF로 표현됩니다. CSS는 140개 이상의 `색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도`를 지원합니다.
 
 <img alt="css_2-3" src="img/css_2-3.png" width="80%" >
 <p></p>
 
-- CSS에서 Color 속성은 색상이름, HEX(#)코드, RGB코드로 나타낼 수 있습니다.
-- RGBA는 색상에 투명도를 적용시킬 때 사용하며, 0~1 사이의 숫자로 나타냅니다.
+- CSS에서 Color속성은 `색상이름, HEX(#)코드, RGB코드`로 나타낼 수 있습니다.
+- `RGBA는 색상에 투명도를 적용`시킬 때 사용하며, 0~1 사이의 숫자로 나타냅니다.
 - CSS 배경속성에는 배경색, 이미지, 배경반복 등이 있습니다.
 
 #### 1) CSS Color

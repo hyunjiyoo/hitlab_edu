@@ -143,7 +143,6 @@ CSS에서의 상속의 개념에 대해 살펴봅니다. 계층 구조 안에서
 CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩니다. 예를 들어, 요소의 두 번째 문자나 선에 스타일을 지정할 수 있고, 요소의 내용 앞이나 뒤에 내용을 삽입할 수도 있습니다. 또한, 가상클래스는 어떤 요소의 특정 상태를 지정해줄 때 사용합니다. 
 
 <img alt="css_4-3" src="img/css_4-3.gif" width="80%" >
-<br>
 
 #### 1) 가상 클래스(:)
  
@@ -161,7 +160,7 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
   <p><a href="default.asp">This is a link</a></p>
 </body>
 ```
-<img alt="css_4-3" src="img/css_4-3-2.gif" width="20%" >
+<img alt="css_4-3-1" src="img/css_4-3-1.gif" width="20%" >
 
 |Selector|Example|Example description|
 |---|---|---|
@@ -181,7 +180,7 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
 ```html
 <style>
   h1::before { 
-    content: url(smiley.gif); 
+    content: url(img/smile.png); 
   }
 </style>
 
@@ -189,7 +188,8 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
   <h1>This is a heading</h1>
 </body>
 ```
-<img alt="css_4-3-1" src="img/css_4-3-1.png" width="20%" >
+
+<img alt="css_4-3-2" src="img/css_4-3-2.png" width="20%" >
 <br><br>
 
 |Selector|Example|Example description|

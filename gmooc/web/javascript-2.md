@@ -143,6 +143,8 @@ var x = add(4,3);
 
 ### 버블링 & 캡처링 방식
 
+> #mydiv 클릭시 이벤트 발생.
+
 ```html
 <!DOCTYPE html> 
 <html>
@@ -154,20 +156,26 @@ var x = add(4,3);
     </body> 
 </html>
 ```
-- `#mydiv`를 클릭하면 이벤트가 발생합니다.
+<br>
+<img alt="js_2-2-1" src="img/js_2-2-1.png" width="70%" >
 
 #### 1) 버블링
 `이벤트가 자식으로부터 발생하여 부모로 전파되는 방식`입니다. 이벤트가 발생하면 트리 위치가 가장 깊은 곳부터 거슬러 올라가게 되고 이 모습이 마치 거품이 올라가는 것과 같아 이벤트 버블링이라고 불립니다.
 - div → body → html → document
 
+<!--
 <img alt="js_2-2" src="img/js_2-2.png" width="50%" >
+-->
 
 #### 2) 캡처링
 이벤트 버블링과 정반대로 `최상위 노드에서 이벤트가 발생`합니다. 위의 이벤트 버블링 때 처럼 div요소를 클릭했을 때 아래 순서로 이벤트가 발생합니다.
 - document → html → body → div
 
+<!--
 <img alt="js_2-3" src="img/js_2-3.png" width="50%" >
+-->
 
+<br>
 
 ### 동영상 강좌
 - JavaScript – 이벤트

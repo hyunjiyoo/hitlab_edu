@@ -10,13 +10,13 @@
 
 
 ### 목차
-1. [JavaScript 소개](#m1)
-2. [JavaScript 기본문법](#m2)
+1. [소개](#m1)
+2. [기본문법](#m2)
 
 ---
 <a id="m1"></a>
 
-## 1. JavaScript 소개
+## 1. 소개
 JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을 구현할 수 있습니다. JavaScript는 주로 웹 브라우저에서 사용되나 Node.js와 같은 프레임워크를 사용하면 `서버 프로그래밍`에서도 사용할 수 있습니다. 현재 컴퓨터나 스마트폰 등에 포함된 대부분의 웹 브라우저에는 JavaScript 인터프리터가 내장되어 있습니다.
 
 <img alt="js_1-1" src="img/js_1-1.gif" width="70%" >
@@ -37,7 +37,7 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
 - What is JavaScript?
   > https://bit.ly/2LwOuMc `02:16`
 - How Javascript works
-  > https://youtu.be/b1ieJtIx1NY `03:42`
+  > https://bit.ly/2LdZuip `03:42`
 - What Is JavaScript? What Does It Do?
   > https://bit.ly/2Lgcdkt `05:23`
 
@@ -78,7 +78,7 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
 ---
 <a id="m2"></a>
 
-## 2. JavaScript 기본 문법
+## 2. 기본 문법
 
 HTML에서 JavaScript 코드는 반드시 \<script>태그 사이에 작성해야합니다. JavaScript의 실행문은 세미콜론(;)으로 구분됩니다.
 
@@ -235,13 +235,13 @@ function printDate() {
     
 ### 참고 자료
 - 기본문법
-  > https://brunch.co.kr/@hee072794/27
+  > https://bit.ly/2uZXAH4
 - 변수 
-  > https://www.w3schools.com/js/js_intro.asp
+  > https://bit.ly/2o4KTKt
 - 반복문
-  > https://www.w3schools.com/js/js_loop_for.asp
+  > https://bit.ly/2uihsHw
 - 조건문
-  > https://www.w3schools.com/js/js_if_else.asp
+  > https://bit.ly/2GsFuCh
 
 
 ### 퀴즈

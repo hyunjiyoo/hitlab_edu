@@ -55,7 +55,7 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 <p></p>
 <div markdown="1">
 
-> Cascading Style Sheet
+- Cascading Style Sheet
 </div>
 </details>
 
@@ -70,10 +70,11 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 </div>
 </details>
 
-<br />
+<br>
 
 ---
 <a id="m2"></a>
+
 ## 2. 사용 이유
 내용과 디자인이 구분되어 있기 때문에 웹 페이지의 내용을 수정해야 할 때도 디자인에 전혀 영향을 미치지 않고 내용만 수정할 수 있습니다. 또한, 기존 HTML 문서는 웹 브라우저 화면을 기본으로 하기 때문에 각 기기에 맞는 브라우저에 적합하게 문서를 만들어야 했습니다. 하지만 CSS는 내용은 그대로 두고 대상 기기에 맞게 CSS만 바꾸어 주면 같은 내용을 여러 기기에 맞추어 볼 수 있습니다.
 

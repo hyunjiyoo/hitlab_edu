@@ -189,7 +189,7 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
 </body>
 ```
 
-<img alt="css_4-3-2" src="img/css_4-3-2.png" width="30%">
+<img alt="css_4-3-2" src="img/css_4-3-2.PNG" width="20%">
 
 <br>
 

@@ -26,11 +26,11 @@
 - 메인 화면 전체가 아닌 부분만 구성합니다.
 ```
 
-<img alt="proj_1-1" src="img/proj_1-1.png" width="100%">
+<img alt="proj_1-1" src="img/proj_1-1.PNG" width="100%">
 
 ### step-2> 레이아웃 분석하기
 
-<img alt="proj_1-2" src="img/proj_1-2.png" width="100%">
+<img alt="proj_1-2" src="img/proj_1-2.PNG" width="100%">
 
 - HTML \<table>태그를 이용합니다.
 - 먼저 헤더, 바디, 푸터 세부분으로 레이아웃을 나눕니다.
@@ -87,7 +87,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-5" src="img/proj_1-5.png" width="100%">
+<img alt="proj_1-5" src="img/proj_1-5.PNG" width="100%">
 
 </details> 
 
@@ -118,7 +118,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-6" src="img/proj_1-6.png" width="100%">
+<img alt="proj_1-6" src="img/proj_1-6.PNG" width="100%">
 
 </details> 
 
@@ -167,7 +167,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-7" src="img/proj_1-7.png" width="100%">
+<img alt="proj_1-7" src="img/proj_1-7.PNG" width="100%">
 
 </details> 
 
@@ -188,7 +188,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<img alt="proj_1-8" src="img/proj_1-8.png" width="100%">
+<img alt="proj_1-8" src="img/proj_1-8.PNG" width="100%">
 
 </details> 
 
@@ -196,7 +196,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 
 브라우저에서 실행 결과를 확인합니다.
 
-<img alt="proj_1-9" src="img/proj_1-9.png" width="100%">
+<img alt="proj_1-9" src="img/proj_1-9.PNG" width="100%">
 
 
 

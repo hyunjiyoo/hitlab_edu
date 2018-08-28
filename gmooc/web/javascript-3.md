@@ -18,7 +18,7 @@
 ## 1. DOM의 개념
 JavaScript는 DOM을 이용하여 HTML의 요소, 속성, 스타일 등을 변경할 수 있습니다.
 
-<img class="img-shadow" alt="js_3-1" src="img/js_3-1.png" width="70%" >
+<img class="img-shadow" alt="js_3-1" src="img/js_3-1.jpg" width="70%" >
 
 - DOM이란 `XML이나 HTML문서에 접근하기 위한 일종의 인터페이스`입니다.
 - DOM은 문서 내의 모든 요소를 정의하고 각각의 요소에 `접근하는 방법을 제공`합니다.

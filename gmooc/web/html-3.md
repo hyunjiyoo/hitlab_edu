@@ -18,9 +18,9 @@
 ## 1. 이미지
 이미지를 삽입하기 위해서 `<img>` 태그를 사용합니다. `src`속성으로 이미지 경로를 지정하고 `width`와 `height`로 이미지의 크기를 조정할 수 있습니다. 또한 `alt`속성은 이미지를 표시하지 못할 경우 표시되는 대체 텍스트를 지정 합니다. 이미지의 경로는 절대경로 및 상대경로로 설정 할 수 있습니다. 
 
-<img alt="html_3-1" src="img/html_3-1.jpg" width="80%">
-<!--이미지 주소 : https://www.miltonmarketing.com/coding/html/the-image-tag/-->
+<img class="img-shadow" alt="html_3-1" src="img/html_3-1.jpg" width="80%">
 
+<!--이미지 주소 : https://www.miltonmarketing.com/coding/html/the-image-tag/-->
 
 - `<img src="이미지 파일 경로">`의 형식으로 사용되며 `src`는 필수 속성입니다.
 - `width`와 `height`는 이미지의 가로, 세로 길이를 픽셀(pixel) 단위로 지정합니다.
@@ -50,7 +50,7 @@
 
 ### 퀴즈
 #### 1) 다음 이미지를 보고 `sub.html`에서 `banner.gif` 파일을 불러오는 경로를 절대경로와 상태경로로 표현하시오.
-<img alt="html_3-3" src="img/html_3-3.gif" width="30%">
+<img class="img-shadow" alt="html_3-3" src="img/html_3-3.gif" width="30%">
 <!--이미지 주소 : http://soweb.tistory.com/entry/HTML%EA%B0%95%EC%A2%8C-%EC%A0%88%EB%8C%80%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%83%81%EB%8C%80%EA%B2%BD%EB%A1%9C-->
 <details>
 <summary>해답보기</summary>
@@ -82,9 +82,8 @@
 ## 2. 테이블
 표를 만들기 위해 `<tabel>`태그를 사용합니다. 행과 열을 표현하기 위해 `<tr>`, `<td>`, `<th>`같은 태그와 함께 작성합니다. `<tr>`을 사용해 표의 행을 정의하고 `<td>`를 사용해 각 행에서 칸(열)을 나누는 기능을 합니다. 표의 머리를 정의할 때는 `<th>` 태그를 사용합니다. 
 
-<img alt="샘플이미지" src="img/html_3-4.gif" width="60%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_3-4.gif" width="60%">
 <!--이미지 주소 : https://poiemaweb.com/html5-tag-list-table-->
-
 
 - `colspan`을 사용하여 열을 확장하며 `rowspan`을 사용하여 행을 확장합니다.
 - 테이블의 경계선 두께 지정을 위해 `border`속성을 사용합니다.

@@ -19,12 +19,12 @@
 ## 1. 소개
 JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을 구현할 수 있습니다. JavaScript는 주로 웹 브라우저에서 사용되나 Node.js와 같은 프레임워크를 사용하면 `서버 프로그래밍`에서도 사용할 수 있습니다. 현재 컴퓨터나 스마트폰 등에 포함된 대부분의 웹 브라우저에는 JavaScript 인터프리터가 내장되어 있습니다.
 
-<img alt="js_1-1" src="img/js_1-1.gif" width="70%" >
+<img class="img-shadow" alt="js_1-1" src="img/js_1-1.gif" width="70%" >
 
 - JavaScript는 동적이며 타입을 명시할 필요가 없는 `인터프리터 언어`입니다.
-> 인터프리터 언어란 컴파일 작업을 거치지 않고, 소스 코드를 바로 실행할 수 있는 언어를 의미합니다. JavaScript는 웹 브라우저에 포함된 JavaScript 인터프리터가 소스 코드를 직접 해석하여 바로 실행해 줍니다.
+> 인터프리터 언어란 컴파일 작업을 거치지 않고, 소스 코드를 바로 실행할 수 있는 언어를 의미합니다.
 - 객체지향 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.
-- HTML의 내용, 속성, 스타일을 변경 할 수 있습니다.
+- `HTML의 내용, 속성, 스타일을 변경` 할 수 있습니다.
 
 
 ### 동영상 강좌
@@ -34,11 +34,11 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
   > https://bit.ly/2JKOZh3 `13:05`
 - JavaScript  오리엔테이션
   > https://bit.ly/2LdYPxr `23:51`
-- What is JavaScript?
+- JavaScript 정의
   > https://bit.ly/2LwOuMc `02:16`
-- How Javascript works
+- JavaScript 작동원리
   > https://bit.ly/2LdZuip `03:42`
-- What Is JavaScript? What Does It Do?
+- JavaScript의 역할
   > https://bit.ly/2Lgcdkt `05:23`
 
 ### 참고 자료
@@ -46,6 +46,7 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
   > https://bit.ly/2o4KTKt 
 - JavaScript 입문
   > https://bit.ly/2uI2GbP 
+
 
 ### 퀴즈
 #### 1) 인터프리터 언어란 무엇인가요?
@@ -59,7 +60,6 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
 </div>
 </details>
 
-
 #### 2) JavaScript는 HTML으로 작성한 내용을 숨기거나 바꿀 수 있다. (O/X)
 <details>
 <summary>해답보기</summary>
@@ -68,7 +68,7 @@ JavaScript는 객체(object) 기반의 스크립트 언어로 `웹의 동작`을
 
 - O
 
-<img alt="js_1-1" src="img/js_1-1.png" width="50%" >
+<img class="img-shadow" alt="js_1-1" src="img/js_1-1.png" width="50%" >
 
 </div>
 </details>
@@ -186,29 +186,30 @@ multi-line comment
 - 내부 JavaScript
 ```html
 <script>
-    document.getElementById("text").innerHTML = "hello javascript!";
+  alert('hello world');
 </script>
 ```
 
 - 외부 JavaScript
+<!--
   - 외부 JavaScript 사용시 웹의 HTML코드로부터 웹의 동작을 구현하는 JavaScript 코드를 분리할 수 있습니다.
   - HTML코드와 JavaScript코드를 읽기가 수월해지고 유지 보수도 간편해집니다.
   - 외부 JavaScript은 웹 브라우저가 미리 읽어 올 수 있어 웹 페이지의 로딩 속도가 빨라집니다.
+-->
 ```js
-//example.js 파일
+//external.js 파일
 function printDate() {
-  document.getElementById("date").innerHTML = Date();
+  alert('hello world');
 }
 ```
 ```html
 <head>
-    <script src="/examples/media/example.js"></script>
+  <script src="../external.js"></script>
 </head>
 ```
 
 
 ### 동영상 강좌
-
 - JavaScript의 기본적인 문법 
   > https://bit.ly/2JLD2r7 `17:24`
 - JavaScript의 기본 구문

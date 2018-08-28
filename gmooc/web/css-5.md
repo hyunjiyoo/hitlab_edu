@@ -15,10 +15,11 @@
 
 ---
 <a id="m1"></a>
+
 ## 1. Inline-block
 HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방법이 달라집니다. 블록 레벨요소는 태그를 사용해 요소를 삽입했을 때 혼자 한 줄을 차지하는 요소입니다. 이것은 해당 요소의 너비가 100% 라는 의미이기도 합니다. 반면, 인라인 레벨요소는 줄을 차지하지 않는 요소입니다. 화면에 표시되는 콘텐츠만큼만 영역을 차지하고 나머지 공간에는 다른 요소가 올 수 있습니다.
 
-<img alt="css_5-1" src="img/css_5-1.png" width="70%" >
+<img class="img-shadow" alt="css_5-1" src="img/css_5-1.png" width="70%" >
 <p></p>
 
 #### 1) block
@@ -84,11 +85,12 @@ HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방�
 
 ---
 <a id="m2"></a>
+
 ## 2. Align
 Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스트는 text-align 속성을 이용하여 글자를 정렬합니다. 요소 배치에는 Float, clear, overflow 속성을 이용합니다. 이 속성들을 이용하여 요소들을 배치하며 레이아웃을 구성합니다.
 
 <p></p>
-<img alt="css_5-2" src="img/css_5-2.png" width="100%" >
+<img class="img-shadow" alt="css_5-2" src="img/css_5-2.png" width="100%" >
 
 #### 1) text-align
 |value|description|
@@ -171,10 +173,11 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 
 ---
 <a id="m3"></a>
+
 ## 3. 포지셔닝
 문서 내에 삽입된 여러 가지 요소들은 별도의 위치 지정이 되지 않은 경우 기본적으로 상/하로 나열됩니다. CSS에서는 position과 float 속성을 통해 HTML 여러 요소들에 대해 위치를 직접 적용하고 레이아웃을 구성할 수 있습니다. position 속성은 문서 내 위치를 직접 지정할 수 있다는 것이 float속성과의 차이점입니다.
 
-<img alt="css_5-3" src="img/css_5-3.png" width="80%" >
+<img class="img-shadow" alt="css_5-3" src="img/css_5-3.png" width="80%" >
 
 > Position 속성은 요소에 사용되는 위치 지정 방법의 유형을 지정합니다.
 

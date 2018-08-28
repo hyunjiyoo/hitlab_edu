@@ -16,17 +16,12 @@ JavaScript의 기초적인 함수 사용법과 이벤트처리는 어떻게 하�
 <a id="m1"></a>
 
 ## 1. 함수
+함수(function)란 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미합니다. 이러한 함수는 필요할 때마다 호출하여 해당 작업을 반복해서 수행할 수 있습니다. 함수도 하나의 타입(datatype)입니다. 따라서 함수를 변수에 대입하거나, 함수에 프로퍼티를 지정하는 것도 가능합니다.
 
-<img alt="js_2-4" src="img/js_2-4.png" width="50%" >
+<img class="img-shadow" alt="js_2-4" src="img/js_2-4.png" width="50%" >
 
-#### 1) 함수란
-- 함수(function)란 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미합니다.
-- 이러한 함수는 필요할 때마다 호출하여 해당 작업을 반복해서 수행할 수 있습니다.
-- 함수도 하나의 타입(datatype)입니다. 따라서 함수를 변수에 대입하거나, 함수에 프로퍼티를 지정하는 것도 가능합니다.
-- JavaScript 함수는 다른 함수 내에 중첩되어 정의될 수도 있습니다.
-
-#### 2) 함수 선언 방법
-- JavaScript에서 함수는 `function`이라는 키워드를 통해 정의됩니다. 
+#### 1) 선언 방법
+- JavaScript에서 함수는 `function`키워드로 정의됩니다. 
 - 함수명은 변수처럼 지어질 수 있으며 파라미터를 가지고 있습니다.
 
 ```js
@@ -35,31 +30,19 @@ function name (one, two){
 }
 ```
 
-#### 3) 함수 리턴값
-- 함수는 호출되면 리턴값을 내놓습니다.
-
+#### 2) 리턴값
+- 리턴값이 있는 경우
 ```js
-var a = name(2,3); 
-function name (x,y){
-    return x*y;
+function add(x,y) {
+    return x+y;
 }
-alert(a); // 6
 ```
 
-- 함수의 리턴값이 없는 경우
-
+- 리턴값이 없는 경우
 ```js
-/* 
-addNum 함수 정의.
-x, y : 함수의 매개변수.
-*/
-
-function addNum(x, y) {   
-    document.write(x + y);
-}
-
-// 인수로 2, 3 전달하여 호출.
-addNum(2, 3);              
+function add(x, y) {   
+    alert('hello world');
+}            
 ```
 
 ### 동영상 강좌
@@ -111,17 +94,13 @@ var x = add(4,3);
 <a id="m2"></a>
 
 ## 2. 이벤트처리
- 
 - 이벤트(event)란 웹 브라우저가 알려주는 `HTML요소에 대한 사건의 발생`을 의미합니다.
 - 자바스크립트는 이벤트에 반응하여 `특정 동작`을 수행할 수 있습니다. 
 - 사용자의 입력값을 가져올 수 있습니다.
-- HTML이벤트 속성은 JavaScript를 직접 실행할 수 있고 함수를 호출할 수 있습니다.
+- HTML이벤트속성은 JavaScript를 직접 실행할 수 있고 함수를 호출할 수 있습니다.
 - HTML요소에 고유한 이벤트 핸들러 함수를 할당할 수 있습니다.
-- 이벤트가 잘못 보내지거나 처리되는 것을 막을 수 있습니다.
 
-```javascript
-//ex) 클릭이벤트(버튼을 누르면 날짜 표시)
-<!DOCTYPE html>
+```html
 <html>
 <body>
     <p>Click the button to display the date.</p>
@@ -135,21 +114,16 @@ var x = add(4,3);
 </body>
 </html> 
 ```
+##### 실행 결과
 
-> 결과
-
-<img alt="js_2-1" src="img/js_2-1.gif" width="70%" >
-
+<img  class="img-shadow" alt="js_2-1" src="img/js_2-1.gif" width="70%" >
 
 ### 버블링 & 캡처링 방식
 
-> #mydiv 클릭시 이벤트 발생.
-
 ```html
-<!DOCTYPE html> 
 <html>
     <head> 
-        <title>이벤트 버블링 예제</title> 
+        <title>Bubbling and Capturing</title> 
     </head> 
     <body> 
         <div id="mydiv">Click Me</div> 
@@ -175,18 +149,17 @@ var x = add(4,3);
 <img alt="js_2-3" src="img/js_2-3.png" width="50%" >
 -->
 
-<br>
 
 ### 동영상 강좌
 - JavaScript – 이벤트
   > https://bit.ly/2NzNcxG  `04:24`
 - 자바스크립트 이벤트 사용법
   > https://bit.ly/2O9IpnF `17:07`
-- JavaScript - 이벤트전파 (1/3) : 소개
+- JavaScript - 이벤트 소개
   > https://bit.ly/2O8OcK5 `05:08`
-- JavaScript - 이벤트전파 (2/3) : 캡처링
+- JavaScript - 이벤트 캡처링
   > https://bit.ly/2NCqsNq `10:38`
-- JavaScript - 이벤트전파 (3/3) : 버블링
+- JavaScript - 이벤트 버블링
   > https://bit.ly/2LyDaPK `10:27`
 - JavaScript - 마우스 이벤트
   > https://bit.ly/2JKCUbG `14:19`
@@ -209,7 +182,6 @@ var x = add(4,3);
 <div markdown="1">
 
 ```html
-<!DOCTYPE html>
 <html>
     <body>
     <p></p>
@@ -219,7 +191,7 @@ var x = add(4,3);
 </html> 
 ```
 
-<img alt="js_2-2-1" src="img/js_2-2-1.gif" width="50%" >
+<img class="img-shadow" alt="js_2-2-1" src="img/js_2-2-1.gif" width="50%" >
 
 </div>
 </details>

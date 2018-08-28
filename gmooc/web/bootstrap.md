@@ -14,10 +14,11 @@
 
 ---
 <a id="m1"></a>
+
 ## 1. 소개
 부트스트랩은 빠르고 쉬운 웹 개발을 위한 무료 프론트엔드 프레임워크입니다. 부트스트랩에는 타이포그래피, 폼, 버튼, 테이블, 네비게이션, 이미지 및 JavaScript 플러그인을 위한 HTML 및 CSS 기반 디자인 템플릿이 포함되어 있습니다.
 
-<img alt="bts_1-1" src="img/bts_1-1.jpg" width="80%" >
+<img class="img-shadow" alt="bts_1-1" src="img/bts_1-1.jpg" width="80%" >
 <p></p>
 
 - 부트스트랩은 웹사이트를 쉽게 만들 수 있게 도와주는 HTML, CSS, JavaScript의 `프레임워크`입니다.
@@ -39,7 +40,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 ```
 
-
 ### 동영상 강좌
 - 부트스트랩 개요
   > https://bit.ly/2vDfY9k `12:33` 
@@ -60,6 +60,7 @@
   > https://bit.ly/2mP58v9
 - Tech Altum Tutorial - Bootstrap Tutorial
   > https://bit.ly/2O8Egzj
+
 
 ### 퀴즈
 #### 1) 부트스트랩이 무엇입니까?
@@ -86,10 +87,11 @@
 
 ---
 <a id="m2"></a>
+
 ## 2. 기본 사용법
 부트스트랩의 그리드 시스템은 페이지 전체에 `최대 12개의 컬럼`을 허용합니다. 12개의 열을 모두 개별적으로 사용하지 않으려면 열을 `그룹화`하여 더 넓은 열을 만들 수 있습니다. 부트스트랩의 그리드 시스템이 반응하며 `화면 크기에 따라 열이 자동으로 재배열`됩니다.
 
-<img alt="bts_1-2" src="img/bts_1-2.jpg" width="80%" >
+<img class="img-shadow" alt="bts_1-2" src="img/bts_1-2.jpg" width="80%" >
 <p></p>
 
 #### 그리드시스템 5가지 클래스

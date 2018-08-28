@@ -16,11 +16,12 @@ HTML 태그를 보조하여 웹 페이지를 꾸미는 역할을 하는 CSS에 �
 
 ---
 <a id="m1"></a>
+
 ## 1. CSS 소개
 
 CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니다. HTML이 텍스트나 이미지, 표 같은 각 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 텍스트 색상이나 크기, 이미지 크기나 위치, 표 색상, 배치 방법 등 웹 문서의 디자인 요소를 담당합니다.
 
-<img alt="css_1-1" src="img/css_1-1.png" width="60%" >
+<img class="img-shadow" alt="css_1-1" src="img/css_1-1.png" width="60%" >
 <p></p>
 
 - CSS란 `Cascading Style Sheet`의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
@@ -78,7 +79,7 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 ## 2. 사용 이유
 내용과 디자인이 구분되어 있기 때문에 웹 페이지의 내용을 수정해야 할 때도 디자인에 전혀 영향을 미치지 않고 내용만 수정할 수 있습니다. 또한, 기존 HTML 문서는 웹 브라우저 화면을 기본으로 하기 때문에 각 기기에 맞는 브라우저에 적합하게 문서를 만들어야 했습니다. 하지만 CSS는 내용은 그대로 두고 대상 기기에 맞게 CSS만 바꾸어 주면 같은 내용을 여러 기기에 맞추어 볼 수 있습니다.
 
-<img alt="css_1-2" src="img/css_1-2.png" width="100%" >
+<img class="img-shadow" alt="css_1-2" src="img/css_1-2.png" width="100%" >
 <p></p>
 
 - 웹 문서의 내용과 상관없이 디자인만 바꿀 수 있습니다.
@@ -113,11 +114,12 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 
 ---
 <a id="m3"></a>
+
 ## 3. 기본 문법
 
 CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지정할 HTML 요소를 가리킵니다. 선언에는 CSS 속성 이름과 값이 포함됩니다. 속성이 여러 개일 경우, 한 줄로 나열해도 상관없지만 여러 줄에 걸쳐 작성하는 것이 좋습니다.
 
-<img alt="css_1-3" src="img/css_1-3.png" width="75%" >
+<img class="img-shadow" alt="css_1-3" src="img/css_1-3.png" width="75%" >
 <p></p>
 
 - CSS규칙은 `선택자(selector)`와 `선언부(declaration)`로 구성됩니다.
@@ -182,11 +184,12 @@ h1 {
 
 ---
 <a id="m4"></a>
+
 ## 4. 포함 방법
 
 CSS의 포함방법에는 `내부 스타일시트, 외부 스타일시트, 인라인 스타일` 총 3가지가 있습니다.
 
-<img alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
+<img class="img-shadow" alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
 <p></p>
 
 #### 1) 내부 스타일시트
@@ -208,7 +211,7 @@ h1 {
 ```
 #### 3) 인라인 스타일
 ```html
-<h1 style="color:blue;margin-left:30px;">This is a heading</h1>
+<h1 style="color:blue; margin-left:30px;">This is a heading</h1>
 ```
 
 

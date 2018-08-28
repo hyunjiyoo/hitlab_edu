@@ -15,6 +15,7 @@
 
 ---
 <a id="m1"></a>
+
 ## 1. 선택자 개요
 
 스타일은 적용 대상이 있어야 하는데 선택자가 바로 그 대상입니다. 선택자는 기존에 HTML 문서에서 사용되는 태그에 대해서 속성과 값을 정의하는 방식으로 별도의 적용 코드 없이 선언과 동시에 해당 태그에 스타일이 적용됩니다. 스타일을 선언할 때 주의사항은 HTML에서 기존에 사용하던 태그만 사용가능하다는 점입니다.
@@ -25,15 +26,13 @@
 
 | Selector | Example | Example description |
 |---------|--------|--------------------|
-| <u>.class</u> | .intro | Selects all elements with class="intro" |
-| <u>#id</u> | #firstname | Selects the element with if="firstname" |
-| <u>*</u> | * | Selects all elements |
-| <u>element</u> | p | Select all \<p> elements |
-| <u>element,element</u> | div, p | Selects all \<div> elements and all \<p> elements |
-| <u>element element</u> | div p | Selects all \<p> elements inside \<div> elements |
-| <u>element>element</u> | div > p | Selects all \<p> elements where the parent is a \<div> element |
-
-<p></p>
+| .class | .intro | Selects all elements with class="intro" |
+| #id | #firstname | Selects the element with if="firstname" |
+| * | * | Selects all elements |
+| element | p | Select all \<p> elements |
+| element, element | div, p | Selects all \<div> elements and all \<p> elements |
+| element  element | div p | Selects all \<p> elements inside \<div> elements |
+| element > element | div > p | Selects all \<p> elements where the parent is a \<div> element |
 
 - CSS가 어떤 태그에 스타일을 정의할 때, 어떤 태그에 정의할 지에 대한 문법이 필요하게 되는데 그것을 선택자라고 합니다.
 - 선택자는 HTML 요소를 요소 이름, 아이디, 클래스, 특성 등에 따라 찾을 때 사용됩니다.
@@ -84,11 +83,12 @@ h1 { color: red; }
 
 ---
 <a id="m2"></a>
+
 ## 2. 기본 선택자
 
 기본 선택자에는 `태그, 아이디, 클래스` 3가지가 있습니다.
 
-<img alt="css_2-2" src="img/css_2-2.png" width="80%" >
+<img class="img-shadow" alt="css_2-2" src="img/css_2-2.png" width="80%" >
 <p></p>
 
 #### 1) 태그 선택자
@@ -185,10 +185,11 @@ h1 { color: red; }
 
 ---
 <a id="m3"></a>
+
 ## 3. 색상
 컴퓨터에서 사용하는 색상은 빛의 삼원색인 빨강색(Red), 초록색(Green), 파랑색(Blue)입니다. 이를 보통 RGB Color라고 부르는데, 각각의 색상은 0 ~ 255까지의 단계로 표현할 수 있습니다. 0부터 255를 16진수로 표현하면 00 ~ FF로 표현됩니다. CSS는 140개 이상의 `색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도`를 지원합니다.
 
-<img alt="css_2-3" src="img/css_2-3.png" width="80%" >
+<img class="img-shadow" alt="css_2-3" src="img/css_2-3.png" width="80%" >
 <p></p>
 
 - CSS에서 Color속성은 `색상이름, HEX(#)코드, RGB코드`로 나타낼 수 있습니다.

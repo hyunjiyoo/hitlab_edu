@@ -21,8 +21,18 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 ## 1. 제목
 `<h>` 태그는 제목을 나타냅니다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타냅니다. `<h1>`이 가장 높은 등급으로 크기가 가장 크며 `<h6>`이 가장 낮은 등급으로 크기가 가장 작습니다. 
 
+<!--
 <img alt="html_2-1" src="img/html_2-1.png" width="40%">
-<p></p>
+-->
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<br>
 
 - 계층 구조에 맞게 순서대로 작성하는 것을 권장합니다.
 - 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로 상황에 맞게 `<h>`의 등급을 사용해야 합니다.
@@ -69,31 +79,19 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 ```
-<details>
-<summary>실행 결과 보기</summary>
-<p></p>
-
+##### 실행 결과
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
-</div>
-</details>
-<br>
 
 ```html
 <p> To break lines <br> in a text, <br> use the br element.
 ```
-<details>
-<summary>실행 결과 보기</summary>
-<p></p>
-<div markdown="1">
-<p> To break lines <br> in a text, <br> use the br element.
-</div>
-</details>
-<br>
+##### 실행 결과
+  <p> To break lines <br> in a text, <br> use the br element.
 
 - `<br>`태그는 닫는 태그가 없습니다. `</br>`로 사용하기도 합니다.
-- 문단 구분을 위해 `<br/>` 태그를 연속으로 사용하는 것 보다는 `<p>`태그를 사용하는 것을 권장합니다.
+- 문단 구분을 위해 `<br>` 태그를 연속으로 사용하는 것 보다 `<p>`태그를 사용하는 것을 권장합니다.
 
 
 ### 동영상 강좌
@@ -156,7 +154,6 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 |\<big> | Bigger font (one size bigger) |
 |\<small> | Smaller font (one size smaller) |
 
-
 <!--이미지 주소 : http://96.0.245.61/mca_course/kurukshetra_university/semester4/webengineering/text_level_elements.php-->
 
 - `<b>`는 텍스트가 중요하지 않지만 단순 진하게 표시할 때, `<strong>`은 중요한 텍스트를 표시할 때 사용합니다.
@@ -211,19 +208,12 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
   <li>Listenelement 3</li>
 </ul>
 ```
-<details>
-<summary>실행 결과 보기</summary>
-<p></p>
-<div markdown="1">
-
+##### 실행 결과
 <ul>
   <li>Listenelement 1</li>
   <li>Listenelement 2</li>
   <li>Listenelement 3</li>
 </ul>
-</div>
-</details>
-<br>
 
 ```html
 <ol>
@@ -232,18 +222,12 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
   <li>Listenelement 3</li>
 </ol>
 ```
-<details>
-<summary>실행 결과 보기</summary>
-<p></p>
-<div markdown="1">
+##### 실행 결과
 <ol>
   <li>Listenelement 1</li>
   <li>Listenelement 2</li>
   <li>Listenelement 3</li>
 </ol>
-</div>
-</details>
-<br>
 
 - `<ol>` 태그는 번호를 메기는 순서가 있는 목록을 만듭니다.
 - `<ul>` 태그는 순서없이 모양으로 목록을 만듭니다.
@@ -285,10 +269,11 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 ## 5. 하이퍼링크
 `<a>`태그를 사용해 하이퍼링크를 걸어줍니다. 기본적으로 `href`속성을 가지며, 이 속성에는 이동할 페이지의 주소를 적어줍니다. `target`속성은 페이지를 어떻게 열 것인가를 결정합니다. \<a>태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있습니다. 
 
-<img alt="html_2-6" src="img/html_2-6.png" width="100%" >
+<img class="img-shadow" alt="html_2-6" src="img/html_2-6.png" width="100%" >
 <!-- 사진 주소 : http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/text-markup-with-html/-->
 
-
+- \<a>태그를 이용해 같은 문서 내에서 특정 위치로 이동하는 `책갈피` 기능을 사용 할 수 있습니다. 
+- \<a>태그의 `name`속성이나 `id`속성을 이용해 문서 내 이동위치를 지정하고 `href = #name(id)` 값을 입력해 링크를 걸 수 있습니다.
 - URL은 `상대경로`와 `절대경로`로 표현 할 수 있습니다. 
   - 절대경로는 고유한 경로로 root(/)에서부터 시작되는 위치입니다. 웹브라우저 주소가 이에 속합니다. 
   - 상대경로는 HTML문서를 기준으로 경로를 인식하는 방법입니다. 
@@ -297,8 +282,6 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
   - `_self` - 현재 웹 브라우저 창으로 엽니다. (기본값)
   - `_parent` - 부모 웹 브라우저 창으로 엽니다.
   - `_top` - 웹 브라우저 전체 영역에 엽니다.
-- \<a>태그를 이용해 같은 문서 내에서 특정 위치로 이동하는 `책갈피` 기능을 사용 할 수 있습니다. 
-- \<a>태그의 `name`속성이나 `id`속성을 이용해 문서 내 이동위치를 지정하고 `href = #name(id)` 값을 입력해 링크를 걸 수 있습니다.
 
 
 ### 동영상 강좌

@@ -18,7 +18,7 @@
 ## 1. DOM의 개념
 JavaScript는 DOM을 이용하여 HTML의 요소, 속성, 스타일 등을 변경할 수 있습니다.
 
-<img alt="js_3-1" src="img/js_3-1.png" width="70%" >
+<img class="img-shadow" alt="js_3-1" src="img/js_3-1.png" width="70%" >
 
 - DOM이란 `XML이나 HTML문서에 접근하기 위한 일종의 인터페이스`입니다.
 - DOM은 문서 내의 모든 요소를 정의하고 각각의 요소에 `접근하는 방법을 제공`합니다.
@@ -57,8 +57,7 @@ document객체는 `웹 페이지`를 의미합니다. 웹페이지에 존재하�
 
 #### 1) Document 메소드
 
-- HTML 요소의 선택
-
+- HTML 요소선택
 ```javascript
 document.getElementsByTagName("tag_name")
 document.getElementById("id_name")
@@ -67,46 +66,36 @@ document.getElementByName("name_attribute")
 document.querySelectorAll("selector")
 ```
 
-- HTML 요소의 생성
-
+- HTML 요소생성
 ```javascript
 document.createElement("HTML_element")
 document.write("text")
 ```
 
-- HTML 이벤트 핸들러 추가
-
+- HTML 이벤트핸들러 추가
 ```javascript
-document.getElementById("id_name").onclick = function(){ code }
+document.getElementById("id_name").onclick = function(){ code };
 ```
 
 #### 2) DOM 요소의 변경
-DOM을 이용하면 HTML 요소의 내용, 속성 값, 스타일 등을 쉽게 변경할 수 있습니다.
 
 - innerHTML 이용.
-
-```javascript
+```js
 var str = document.getElementById("text");
 str.innerHTML = "changed text";
 ```
 
-- HTML 요소의 변경, 추가, 제거
-
+- HTML 요소의 속성값 변경
 ```js
-// HTML 요소의 속성값 변경
-element.attribute = new value          
 element.setAttribute(attribute, value)
+```
 
-// HTML 요소의 스타일 변경
-element.style.property = new style     
-
+- HTML 요소 생성, 제거, 추가
+```js
 document.createElement(element)        
 document.removeChild(element)          
 document.appendChild(element)          
-document.replaceChild(element)         
-
-// HTML 출력
-document.write(text)                   
+document.replaceChild(element)                    
 ```
 
 - DOM의 사용 예시
@@ -118,20 +107,21 @@ document.write(text)
     <p id="demo"></p>             
     
     <script>
-      // intro 아이디 선택.
       var myElement = document.getElementById("intro");  
-      // demo 아이디 선택 후 innerHTML로 내용 변경.
       document.getElementById("demo").innerHTML = "The text from the intro paragraph is " + myElement.innerHTML;
     </script>
   </body>
 </html>
 ```
 
-> 결과
-
-Hello World!   
-This example demonstrates the **getElementById** method!   
-The text from the intro paragraph is Hello World!
+##### 실행 결과
+<p id="intro">Hello World!</p>
+<p>This example demonstrates the <b>getElementById</b> method!</p>
+<p id="demo"></p>             
+<script>
+  var myElement = document.getElementById("intro");
+  document.getElementById("demo").innerHTML = "The text from the intro paragraph is " + myElement.innerHTML;
+</script>
 
 
 ### 동영상 강좌

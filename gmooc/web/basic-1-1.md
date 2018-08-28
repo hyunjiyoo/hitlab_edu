@@ -23,7 +23,7 @@
 <img alt="basic_1-1-1" src="img/basic_1-1-1.jpg" width="60%" >
 
 ### 동영상 강좌
-- 컴퓨터 공학개론 : [https://bit.ly/2NC5IFp](https://bit.ly/2NC5IFp){: `11:34`
+- 컴퓨터 공학개론 : [https://bit.ly/2NC5IFp](https://bit.ly/2NC5IFp){:target="_blank"} `11:34`
 - 컴퓨터란?
   > https://bit.ly/2O8yBu1 `10:29`
 - What is a Computer?

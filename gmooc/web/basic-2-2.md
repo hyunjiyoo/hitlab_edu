@@ -34,7 +34,6 @@
 - How to Install Intellij IDEA on Windows 8 / Windows 10 + Creating First Hello World Java Application
   > https://bit.ly/2P38GUa `04:46`
  
-
  ---
  <a id="m8"></a>
 

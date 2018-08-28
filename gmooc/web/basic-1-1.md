@@ -24,7 +24,7 @@
 
 ### 동영상 강좌
 - 컴퓨터 공학개론 : [https://bit.ly/2NC5IFp](https://bit.ly/2NC5IFp){:target="_blank"} `11:34`   
-<a href="https://bit.ly/2NC5IFp" target=_blank>https://bit.ly/2NC5IFp</a>
+<a href="http://bit.ly/2NC5IFp" target="_blank">https://bit.ly/2NC5IFp</a>
 - 컴퓨터란?
   > https://bit.ly/2O8yBu1 `10:29`
 - What is a Computer?
